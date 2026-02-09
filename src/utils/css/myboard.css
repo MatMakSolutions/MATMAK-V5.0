@@ -1,0 +1,689 @@
+/* Animations */
+@keyframes microFade {
+  0% { opacity: 0; transform: translateY(-2px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes faintGlow {
+  0%, 100% { box-shadow: 0 0 0px rgba(37, 169, 224, 0.1); } /* Matmak #25A9E0 */
+  50% { box-shadow: 0 0 3px rgba(37, 169, 224, 0.15); }
+}
+
+
+
+/* Main Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full Electron screen height */
+  width: 100vw; /* Full Electron screen width */
+  background: var(--color-bg-main);
+  overflow-y: auto;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: microFade 0.3s ease-out;
+}
+
+.main-container::-webkit-scrollbar {
+  width: 2px;
+}
+
+.main-container::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 1px;
+  transition: background 0.2s ease;
+}
+
+.main-container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Boards Container */
+.boards-container {
+ width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  overflow-y: auto;
+  color: var(--text-color-primary);
+}
+
+/* Boards Content */
+.boards-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 97%;
+  padding: 2px; /* Reduced padding for more content space */
+  background: var(--color-bg-tertiary);
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(3px);
+  overflow: hidden; /* Prevent internal overflow */
+  animation: microFade 0.3s ease-out;
+}
+
+
+
+
+/* Boards Search */
+.my-boards-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 100%;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0px; /* Below header */
+  background: rgba(249, 250, 251, 0.98); /* Match boards-content */
+  z-index: 9;
+  padding: 0px 0;
+}
+
+/* Search Box */
+.my-boards-search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background: #FFFFFF; /* White background */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 6px;
+  padding: 0px;
+  transition: all 0.2s ease;
+}
+
+.my-boards-search-box:hover {
+  border-color: #25A9E0; /* Matmak light blue */
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.1);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.my-boards-search-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  outline: none;
+  letter-spacing: 0.01rem;
+}
+
+.my-boards-search-box input::placeholder {
+  color: #6B7280; /* Matmak gray */
+}
+
+.search-box-icon {
+  width: 8px;
+  height: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 8px;
+}
+
+/* Dropdown */
+.my-boards-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  background: #FFFFFF; /* White background */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.my-boards-dropdown:hover {
+  border-color: #25A9E0; /* Matmak light blue */
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.1);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.dropdown-icon {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+}
+
+.dropdown-text {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827; /* Dark for readability */
+  letter-spacing: 0.01rem;
+}
+
+.dropdown-arrow {
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #6B7280; /* Matmak gray */
+  border-bottom: 2px solid #6B7280;
+  transform: rotate(-45deg);
+  transition: border-color 0.2s ease;
+}
+
+.my-boards-dropdown:hover .dropdown-arrow {
+  border-color: #25A9E0; /* Matmak light blue */
+}
+
+/* Table Container */
+.table-container {
+  width: 100%;
+  flex: 1; /* Grow to fill available space */
+  overflow-y: auto;
+  margin-bottom: 0px;
+}
+
+.table-container::-webkit-scrollbar {
+  width: 2px; /* Very thin scrollbar */
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #FFFFFF; /* White track */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #25A9E0; /* Matmak gray */
+  border-radius: 1px;
+  transition: background 0.2s ease;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #25A9E0; /* Matmak light blue */
+}
+
+/* Table Header Row */
+.table-row:first-child {
+  position: sticky;
+  top: 0;
+  background: #FFFFFF; /* White background */
+  z-index: 5; /* Below main header and search */
+  border-bottom: 2px solid #D1D5DB; /* Thicker border */
+  font-weight: bold; /* Bold headers */
+  color: #111827; /* Match main header */
+  font-size: 0.9rem; /* Slightly larger for visibility */
+}
+
+/* Table Body */
+.table-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table Buttons */
+.add-to-cut-board-button, .delete-board-button, .status-history-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px; /* Slightly smaller for table */
+  background:transparent; /* Matmak light blue */
+  color: #25A9E0; /* White text */
+  font-size: 0.875rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.01rem;
+  margin: 0 2px;
+}
+
+.add-to-cut-board-button:hover, .delete-board-button:hover, .status-history-button:hover {
+  background: #000000; /* Black per profile */
+  transform: scale(1.02);
+  box-shadow: 0 0 6px rgba(37, 24, 224, 0.4);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.add-to-cut-board-icon, .delete-board-icon, .status-history-icon {
+  width: 16px;
+  height: 16px;
+  fill: #FFFFFF; /* White icon */
+}
+
+/* Table Row and Cell */
+.table-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+.table-row:hover:not(:first-child) {
+  background: rgba(37, 169, 224, 0.03); /* Matmak #25A9E0 */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.table-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #333333; /* Slightly lighter for body */
+  letter-spacing: 0.01rem;
+}
+
+.table-cell:last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px; /* Space between buttons */
+  justify-content: flex-start;
+}
+
+/* No Boards/History Message */
+.no-boards-message, .no-history-message {
+  margin: 16px 0;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Pagination Container */
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  gap: 3px;
+  margin-top: 1px;
+  position: sticky;
+  bottom: 3;
+  background: rgba(249, 250, 251, 0.98);
+  z-index: 8;
+  padding: 9px 0;
+  width: auto; /* Prevent stretching */
+}
+
+/* Pagination Buttons */
+.pagination-button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 9px;
+  background:transparent;
+  color: #25A9E0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background: transparent;
+  box-shadow: 0 0 6px rgba(37, 24, 0.2);
+  animation: faintGlow 1.5s infinite alternate;
+  Color :#000000 ;
+}
+
+.pagination-button:disabled {
+  background: #D1D5DB;
+  color: #6B7280;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.pagination-button.active {
+  background-color: #000000;
+  color: white;
+  border-color: #007bff;
+}
+
+.pagination-icon {
+  width: 21px;
+  height: 17px;
+  fill: #FFFFFF;
+}
+
+/* Pagination Info */
+.pagination-info {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 0.01rem;
+}
+
+.my-boards-search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Input field styling */
+.my-boards-search-box input {
+  flex: 1;
+  padding: 8px 40px 8px 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Search button styling */
+.search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 32px; /* Adjusted to accommodate clear button */
+  transition: background-color 0.2s;
+}
+
+.search-button:hover {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  fill: #666;
+}
+
+.search-button:hover .search-icon {
+  fill: #333;
+}
+
+/* Clear search button styling */
+.clear-search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 5px;
+  transition: background-color 0.2s;
+}
+
+.clear-search-button:hover {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.clear-icon {
+  width: 20px;
+  height: 20px;
+  fill: #666;
+}
+
+.clear-search-button:hover .clear-icon {
+  fill: #333;
+}
+
+/* Ensure buttons are visible above input */
+.my-boards-search-box button {
+  z-index: 1;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 600px) {
+  .my-boards-search-box {
+    max-width: 100%;
+  }
+}
+
+/* ========================================
+   DARK MODE STYLING FOR CUT HISTORY
+   ======================================== */
+
+/* Header */
+body.dark-theme .my-boards-header,
+body.mm.dark-theme .my-boards-header {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Search Section */
+body.dark-theme .my-boards-search,
+body.mm.dark-theme .my-boards-search {
+  background: var(--color-bg-main) !important;
+}
+
+body.dark-theme .my-boards-search-box,
+body.mm.dark-theme .my-boards-search-box {
+  background: var(--color-bg-input) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .my-boards-search-box:hover,
+body.mm.dark-theme .my-boards-search-box:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.3) !important;
+}
+
+body.dark-theme .my-boards-search-box input,
+body.mm.dark-theme .my-boards-search-box input {
+  background: transparent !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .my-boards-search-box input::placeholder,
+body.mm.dark-theme .my-boards-search-box input::placeholder {
+  color: var(--color-text-tertiary) !important;
+  opacity: 0.7;
+}
+
+/* Search buttons */
+body.dark-theme .search-button,
+body.mm.dark-theme .search-button {
+  background: transparent !important;
+}
+
+body.dark-theme .search-button:hover,
+body.mm.dark-theme .search-button:hover {
+  background: var(--color-bg-hover) !important;
+}
+
+body.dark-theme .search-icon,
+body.mm.dark-theme .search-icon {
+  fill: var(--color-text-primary) !important;
+}
+
+body.dark-theme .clear-search-button,
+body.mm.dark-theme .clear-search-button {
+  background: transparent !important;
+}
+
+body.dark-theme .clear-search-button:hover,
+body.mm.dark-theme .clear-search-button:hover {
+  background: var(--color-bg-hover) !important;
+}
+
+body.dark-theme .clear-icon,
+body.mm.dark-theme .clear-icon {
+  fill: var(--color-text-primary) !important;
+}
+
+/* Table Container and Scrollbar */
+body.dark-theme .table-container::-webkit-scrollbar-track,
+body.mm.dark-theme .table-container::-webkit-scrollbar-track {
+  background: var(--scrollbar-track) !important;
+}
+
+body.dark-theme .table-container::-webkit-scrollbar-thumb,
+body.mm.dark-theme .table-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb) !important;
+}
+
+body.dark-theme .table-container::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .table-container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover) !important;
+}
+
+/* Table Header Row (first row) */
+body.dark-theme .table-row:first-child,
+body.mm.dark-theme .table-row:first-child,
+body.dark-theme .table-hover:first-child,
+body.mm.dark-theme .table-hover:first-child {
+  background: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+  border-bottom-color: var(--color-border-light) !important;
+}
+
+/* Table Rows - override inline styles */
+body.dark-theme .table-row,
+body.mm.dark-theme .table-row,
+body.dark-theme .table-hover,
+body.mm.dark-theme .table-hover {
+  background: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+  border-bottom-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .table-row:hover:not(:first-child),
+body.mm.dark-theme .table-row:hover:not(:first-child),
+body.dark-theme .table-hover:hover:not(:first-child),
+body.mm.dark-theme .table-hover:hover:not(:first-child) {
+  background: var(--color-bg-hover) !important;
+}
+
+/* Table Cells - override inline styles with maximum specificity */
+body.dark-theme .table-cell,
+body.mm.dark-theme .table-cell,
+body.dark-theme .table-hover > div,
+body.mm.dark-theme .table-hover > div {
+  color: var(--color-text-primary) !important;
+}
+
+/* Table Buttons */
+body.dark-theme .add-to-cut-board-button,
+body.mm.dark-theme .add-to-cut-board-button,
+body.dark-theme .delete-board-button,
+body.mm.dark-theme .delete-board-button,
+body.dark-theme .status-history-button,
+body.mm.dark-theme .status-history-button {
+  background: transparent !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .add-to-cut-board-button:hover,
+body.mm.dark-theme .add-to-cut-board-button:hover,
+body.dark-theme .delete-board-button:hover,
+body.mm.dark-theme .delete-board-button:hover,
+body.dark-theme .status-history-button:hover,
+body.mm.dark-theme .status-history-button:hover {
+  background: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .add-to-cut-board-icon,
+body.mm.dark-theme .add-to-cut-board-icon,
+body.dark-theme .delete-board-icon,
+body.mm.dark-theme .delete-board-icon,
+body.dark-theme .status-history-icon,
+body.mm.dark-theme .status-history-icon {
+  fill: var(--color-text-primary) !important;
+}
+
+/* No Boards/History Message */
+body.dark-theme .no-boards-message,
+body.mm.dark-theme .no-boards-message,
+body.dark-theme .no-history-message,
+body.mm.dark-theme .no-history-message {
+  color: var(--color-text-primary) !important;
+}
+
+/* Pagination Container */
+body.dark-theme .pagination-container,
+body.mm.dark-theme .pagination-container {
+  background: var(--color-bg-main) !important;
+}
+
+/* Pagination Buttons */
+body.dark-theme .pagination-button,
+body.mm.dark-theme .pagination-button {
+  background: transparent !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .pagination-button:hover:not(:disabled),
+body.mm.dark-theme .pagination-button:hover:not(:disabled) {
+  background: var(--color-bg-hover) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .pagination-button.active,
+body.mm.dark-theme .pagination-button.active {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+body.dark-theme .pagination-button:disabled,
+body.mm.dark-theme .pagination-button:disabled {
+  background: var(--color-bg-tertiary) !important;
+  color: var(--color-text-tertiary) !important;
+  cursor: not-allowed !important;
+}
+
+body.dark-theme .pagination-icon,
+body.mm.dark-theme .pagination-icon {
+  fill: var(--color-text-primary) !important;
+}
+
+body.dark-theme .pagination-button.active .pagination-icon,
+body.mm.dark-theme .pagination-button.active .pagination-icon {
+  fill: var(--color-text-inverse) !important;
+}
+
+/* Pagination Info */
+body.dark-theme .pagination-info,
+body.mm.dark-theme .pagination-info {
+  color: var(--color-text-primary) !important;
+}
+
+/* Force all text in history containers to be white */
+body.dark-theme .table-container,
+body.mm.dark-theme .table-container,
+body.dark-theme .table-container *,
+body.mm.dark-theme .table-container * {
+  color: var(--color-text-primary) !important;
+}
+
+/* Override any inline styles from Table component */
+body.dark-theme .table-hover[style*="backgroundColor"],
+body.mm.dark-theme .table-hover[style*="backgroundColor"] {
+  background-color: var(--color-bg-main) !important;
+}
+
+body.dark-theme .table-hover[style*="borderBottom"],
+body.mm.dark-theme .table-hover[style*="borderBottom"] {
+  border-bottom-color: var(--color-border-light) !important;
+}

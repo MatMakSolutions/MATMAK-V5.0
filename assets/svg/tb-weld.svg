@@ -1,0 +1,12 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.8">
+    <!-- First shape -->
+    <path d="M 4 4 L 18 4 L 18 18 L 4 18 Z" fill="#4A90E2" stroke="#2C5282" stroke-width="1.5"/>
+    <!-- Second shape overlapping -->
+    <path d="M 12 12 L 26 12 L 26 26 L 12 26 Z" fill="#4A90E2" stroke="#2C5282" stroke-width="1.5" opacity="0.7"/>
+    <!-- Union indicator -->
+    <path d="M 12 12 L 18 12 L 18 18 L 12 18 Z" fill="#68D391" stroke="#25A9E0" stroke-width="1.5"/>
+    <!-- Plus symbol -->
+    <path d="M 14 15 L 16 15 M 15 14 L 15 16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

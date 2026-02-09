@@ -1,0 +1,126 @@
+# MatMak UI - LLM Reference Guide
+
+## Project Overview
+Electron desktop app for cutting/plotting machines with PIXI.js graphics engine.
+Main purpose: Load vector patterns, edit them, and send to cutting machines.
+
+## Critical Files to Know
+
+### Pattern System (Core Business Logic)
+src/Pattern/Pattern.ts - Base pattern class, manages vector paths
+src/Pattern/Extentions/_BasePlugin.ts - Plugin system for extending patterns
+src/Pattern/Extentions/PatternEdition.ts - Editing functionality (most complex)
+src/Pattern/PatternConstants.ts - All color/style constants
+
+### Graphics Management
+src/Graphics/Surface.ts - Main canvas controller (user interactions)
+src/Graphics/SurfaceManager.ts - High-level operations (cutting, nesting)
+src/Pattern/PolygonHit.ts - Hit detection for pattern selection
+
+### Application Entry
+src/main.ts - Electron main process
+src/cutboard/EntryPoint.ts - PIXI.js initialization
+src/ui/layout/Frame.tsx - Main React component
+
+### Vector Processing
+src/mvd/VectorDocument.ts - Loading vector files
+src/VectorPath/VectorPath.ts - SVG path manipulation
+
+## Key Concepts
+
+### Pattern Extension Chain
+Patterns use functional composition:
+```
+CollidePattern → WrapPattern → SplitPattern → EditionPattern → SelectedPattern → SplitBikiniPattern
+```
+
+### State Management
+- Patterns have states: normal, selected, edition, split, wrap, collided
+- Each state has init_, display_, cleanUp_, dispose_ methods
+
+### Graphics Layers
+1. Board background
+2. Patterns
+3. Selection overlays
+4. Edit handlers
+5. UI elements (menus)
+
+## Common Tasks
+
+### Adding Pattern Feature
+1. Create new extension in src/Pattern/Extentions/
+2. Follow _BasePlugin pattern
+3. Add to composition chain in Pattern.ts
+
+### Modifying Graphics
+- Edit mode colors: PatternConstants.ts
+- Canvas behavior: Surface.ts
+- Pattern rendering: Pattern display() method
+
+### Adding UI Component
+1. Create in src/ui/controls/
+2. Import in Frame.tsx or appropriate parent
+3. Use @ekkojs/web-controls for consistency
+
+## Code Patterns
+
+### IPC Communication
+```typescript
+window.electronAPI.invoke('channel-name', data)
+ipcMain.handle('channel-name', async (event, data) => {})
+```
+
+### Pattern State Change
+```typescript
+pattern.state = "edition";
+// Automatically calls cleanUp_[oldState] and display_edition
+```
+
+### Adding Graphics
+```typescript
+const graphics = new PIXI.Graphics();
+this.container.addChild(graphics);
+// Always clean up in dispose()
+```
+
+## Important State Variables
+- SurfaceManager._patterns - All loaded patterns
+- Surface._dragTarget - Currently dragged pattern
+- Surface._selectedPattern - Currently selected pattern
+- PatternEdition._handlers - Edit control points
+
+## File Organization
+- UI components: React/TypeScript
+- Graphics: PIXI.js classes
+- Pattern logic: TypeScript classes with mixins
+- Electron IPC: main.ts handlers
+
+## Performance Considerations
+- Patterns can have thousands of points
+- Use WebGL rendering where possible
+- Batch graphics operations
+- Clean up PIXI objects to prevent memory leaks
+
+## Debugging Tips
+- Check window.surface for current canvas state
+- Pattern.state shows current mode
+- Enable PIXI dev tools in browser
+- IPC logs in main process console
+
+## Common Issues
+- Hit detection: Check zoom factor in PolygonHit
+- State cleanup: Ensure cleanUp_ methods remove all graphics
+- Memory leaks: Dispose PIXI objects properly
+- IPC: Check both main and renderer console logs
+
+## Testing Approach
+- Pattern operations: Load various SVG/PLT files
+- Editing: Test with complex curves
+- Performance: Load 100+ patterns
+- Cutting: Use virtual COM port for testing
+
+## Old/Deprecated Code
+- BACKUP_ methods in SurfaceManager
+- Commented serial port code in main.ts
+- Old update mechanism (_old functions)
+- Test canvases in HTML

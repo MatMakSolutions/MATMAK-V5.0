@@ -1,0 +1,3 @@
+node packager.js D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\update.json D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\node_modules resources\\app
+node packager.js D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\update.json D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\assets resources\\app
+node packager.js D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\update.json D:\git\cs-fake-server\cs-fake-server\FakeUpdateServer\assets\updates\3.2.25060000\.vite resources\\app

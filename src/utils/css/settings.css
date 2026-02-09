@@ -1,0 +1,487 @@
+
+/* Settings CSS now uses global theme variables from themes.css */
+:root {
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --bg-color: var(--color-bg-main);
+  --card-bg-color: var(--color-bg-secondary);
+  --header-bg-color: var(--color-bg-secondary);
+  --text-color-primary: var(--color-text-primary);
+  --text-color-secondary: var(--color-text-secondary);
+  --border-color: var(--color-border-light);
+  --divider-color: var(--color-border-light);
+  --primary-color: var(--color-primary);
+  --primary-color-light: var(--color-accent);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --border-radius: 8px;
+}
+
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-main);
+  font-family: var(--font-family);
+  overflow-y: auto;
+  color: var(--text-color-primary);
+}
+
+.page-header {
+  background-color: var(--color-bg-main);
+  color: var(--text-color-primary) !important;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.1rem 40.5rem;
+  border-bottom: 1px solid var(--color-border-light);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.settings-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.settings-card {
+  background-color: var(--color-bg-main);
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 1rem 1.5rem;
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color-primary) !important;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: var(--text-color-secondary) !important;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: transparent;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: var(--divider-color);
+  margin: 0;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-color-primary) !important;
+}
+
+.form-input,
+.form-select {
+  width: 95%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--color-bg-input);
+  color: var(--text-color-primary);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-glow);
+}
+
+.form-input::placeholder {
+  color: var(--text-color-secondary);
+  opacity: 0.7;
+}
+
+.form-select:disabled,
+.form-input:disabled {
+    background-color: var(--color-bg-tertiary);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.static-text {
+  width: 15%;
+    font-size: 0.875rem;
+    color: var(--text-color-primary);
+    padding: 0.5rem 0.75rem;
+    background-color: var(--color-bg-input);
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+
+.checkbox-group, .radio-title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.form-checkbox, .form-radio {
+    height: 1rem;
+    width: 1rem;
+    accent-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.checkbox-group label, .radio-title-group label {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.checkbox-group-dynamic {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.checkbox-group-dynamic .checkbox-part {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.checkbox-group-dynamic .form-input {
+    max-width: 150px;
+}
+
+.sub-settings-group {
+    background-color: var(--color-bg-input);
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.custom-commands-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Connection Radio Options */
+.radio-option-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.radio-description {
+    font-size: 0.875rem;
+    color: var(--text-color-secondary);
+    margin: 0 0 0.5rem 2rem; /* Indent under radio button */
+}
+
+.radio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 2rem; /* Indent content */
+}
+
+/* Tabs Styling */
+.tabs-container {
+  margin: 1.5rem;
+}
+
+.tabs-header {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-color-secondary);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  bottom: -2px;
+}
+
+.tab-button:hover {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tab-content {
+  min-height: 400px;
+}
+
+/* Dark mode support for select options */
+.form-select option {
+  background-color: var(--color-bg-input);
+  color: var(--text-color-primary);
+}
+
+/* Ensure select dropdown background matches in dark mode */
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+body.dark-theme .form-select,
+body.mm.dark-theme .form-select,
+body.dark-theme select,
+body.mm.dark-theme select {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23E0E0E0' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") !important;
+  color: var(--color-text-primary) !important;
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Dark mode styling to match profile page */
+body.dark-theme .page-container,
+body.mm.dark-theme .page-container {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .settings-card,
+body.mm.dark-theme .settings-card {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+body.dark-theme .page-header,
+body.mm.dark-theme .page-header {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+  border-bottom-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .card-header,
+body.mm.dark-theme .card-header {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+body.dark-theme .card-body,
+body.mm.dark-theme .card-body {
+  background-color: transparent !important;
+}
+
+body.dark-theme .card-title,
+body.mm.dark-theme .card-title {
+  color: var(--color-text-primary) !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+body.dark-theme .card-description,
+body.mm.dark-theme .card-description {
+  color: var(--color-text-secondary) !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body.dark-theme .sub-settings-group,
+body.mm.dark-theme .sub-settings-group {
+  background-color: var(--color-bg-input) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+/* Force ALL text to be white in dark mode - with maximum specificity */
+body.dark-theme .page-container,
+body.dark-theme .page-container *,
+body.dark-theme .settings-card,
+body.dark-theme .settings-card *,
+body.dark-theme .card-header,
+body.dark-theme .card-header *,
+body.dark-theme .card-body,
+body.dark-theme .card-body *,
+body.mm.dark-theme .page-container,
+body.mm.dark-theme .page-container *,
+body.mm.dark-theme .settings-card,
+body.mm.dark-theme .settings-card *,
+body.mm.dark-theme .card-header,
+body.mm.dark-theme .card-header *,
+body.mm.dark-theme .card-body,
+body.mm.dark-theme .card-body *,
+body.dark-theme .page-container p,
+body.dark-theme .page-container span,
+body.dark-theme .page-container div,
+body.dark-theme .page-container label,
+body.mm.dark-theme .page-container p,
+body.mm.dark-theme .page-container span,
+body.mm.dark-theme .page-container div,
+body.mm.dark-theme .page-container label {
+  color: var(--color-text-primary) !important;
+}
+
+/* Override for specific elements that should have different colors */
+body.dark-theme .tab-button.active,
+body.mm.dark-theme .tab-button.active {
+  color: var(--color-primary) !important;
+  border-bottom-color: var(--color-primary) !important;
+}
+
+body.dark-theme .tabs-header,
+body.mm.dark-theme .tabs-header {
+  border-bottom-color: var(--color-border-light) !important;
+}
+
+/* Make sure form inputs and selects have white text - override inline styles */
+body.dark-theme .form-input,
+body.dark-theme .form-select,
+body.dark-theme input[type="text"].settings,
+body.dark-theme .static-text,
+body.mm.dark-theme .form-input,
+body.mm.dark-theme .form-select,
+body.mm.dark-theme input[type="text"].settings,
+body.mm.dark-theme .static-text,
+body.dark-theme select,
+body.mm.dark-theme select {
+  color: var(--color-text-primary) !important;
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Ensure all labels and text in form groups are white */
+body.dark-theme label,
+body.dark-theme .form-group,
+body.dark-theme .form-group *,
+body.dark-theme .radio-description,
+body.dark-theme .checkbox-group label,
+body.dark-theme .radio-title-group label,
+body.mm.dark-theme label,
+body.mm.dark-theme .form-group,
+body.mm.dark-theme .form-group *,
+body.mm.dark-theme .radio-description,
+body.mm.dark-theme .checkbox-group label,
+body.mm.dark-theme .radio-title-group label {
+  color: var(--color-text-primary) !important;
+}
+
+/* Make sure placeholder text is visible but lighter */
+body.dark-theme .form-input::placeholder,
+body.dark-theme .form-select::placeholder,
+body.mm.dark-theme .form-input::placeholder,
+body.mm.dark-theme .form-select::placeholder {
+  color: var(--color-text-tertiary) !important;
+  opacity: 0.7;
+}
+
+/* Ensure select options have white text */
+body.dark-theme .form-select option,
+body.mm.dark-theme .form-select option,
+body.dark-theme select option,
+body.mm.dark-theme select option {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Override inline styles from index.html that set black text - MAXIMUM PRIORITY */
+body.dark-theme select,
+body.mm.dark-theme select,
+body.dark-theme input[type="text"].settings,
+body.mm.dark-theme input[type="text"].settings {
+  color: var(--color-text-primary) !important;
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Force white text for all elements - catch everything */
+body.dark-theme .page-container,
+body.mm.dark-theme .page-container {
+  color: var(--color-text-primary) !important;
+}
+
+/* Additional catch-all for any remaining text elements */
+body.dark-theme .page-container *:not(.theme-toggle-button):not(.tab-button.active),
+body.mm.dark-theme .page-container *:not(.theme-toggle-button):not(.tab-button.active) {
+  color: var(--color-text-primary) !important;
+}
+
+/* Force all text elements to be white - comprehensive coverage */
+body.dark-theme .page-container p,
+body.dark-theme .page-container span,
+body.dark-theme .page-container div:not(.theme-toggle-button),
+body.dark-theme .page-container h1,
+body.dark-theme .page-container h2,
+body.dark-theme .page-container h3,
+body.dark-theme .page-container h4,
+body.dark-theme .page-container h5,
+body.dark-theme .page-container h6,
+body.dark-theme .page-container a,
+body.dark-theme .page-container button:not(.theme-toggle-button):not(.tab-button.active),
+body.mm.dark-theme .page-container p,
+body.mm.dark-theme .page-container span,
+body.mm.dark-theme .page-container div:not(.theme-toggle-button),
+body.mm.dark-theme .page-container h1,
+body.mm.dark-theme .page-container h2,
+body.mm.dark-theme .page-container h3,
+body.mm.dark-theme .page-container h4,
+body.mm.dark-theme .page-container h5,
+body.mm.dark-theme .page-container h6,
+body.mm.dark-theme .page-container a,
+body.mm.dark-theme .page-container button:not(.theme-toggle-button):not(.tab-button.active) {
+  color: var(--color-text-primary) !important;
+}

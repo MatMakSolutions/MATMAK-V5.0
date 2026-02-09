@@ -1,0 +1,31 @@
+{
+  "name": "proxy-cache-cli",
+  "version": "1.0.0",
+  "description": "HTTP proxy with recording and caching capabilities",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "proxy-cache": "./src/index.js",
+    "cache-editor": "./src/cache-editor.js",
+    "cache-viewer": "./src/viewer-cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["proxy", "cache", "http", "recording", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,314 @@
+/* Filter Pane Container */
+.filter-pane-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding: 1.9rem;
+  background: var(--color-bg-main);
+  font-family: 'Montserrat', sans-serif;
+  animation: microFade 0.3s ease-out;
+  transition: box-shadow 0.2s ease;
+  margin-top: 0rem;
+  width : 100%;
+  Height :47% ;
+  
+}
+
+/* Filter Bar */
+.filter-bar {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 7rem;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 0.13rem;
+  margin-bottom: 0rem;
+}
+
+/* Filter Item */
+.filter-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 207px;
+  max-width: 207px;
+  transition: transform 0.2s ease;
+   
+}
+
+/* Data Label for Filter Item */
+.filter-item::before {
+  content: attr(data-label);
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  transition: color 0.2s ease;
+}
+
+.filter-item:hover::before {
+  color: var(--color-text-hover);
+}
+
+/* Dropdown Styles */
+.filter-drop-down {
+   align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0.5rem 1rem; /* Match button padding for consistent height */
+  background: var(--color-bg-main);
+  border: 1px solid var(--color-border-primary);
+  border-radius: 10px;
+  min-height: 2rem; /* Keep for consistency */
+  height: 2rem; /* Explicit height to match button */
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  box-sizing: border-box; /* Ensure padding doesn't affect size */
+}
+
+.filter-drop-down:hover {
+  border-color: var(--color-text-primary);
+  box-shadow: var(--shadow-glow);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.filter-drop-down.disabled {
+  background: var(--color-bg-tertiary);
+  cursor: not-allowed;
+  opacity: 0.6; /* Match button disabled opacity */
+}
+
+/* Dropdown List */
+.filter-drop-down-list {
+   align-items: center;
+  justify-content: center;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--color-dropdown-bg);
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+}
+
+.filter-drop-down-list::-webkit-scrollbar {
+  width: 1px;
+}
+
+.filter-drop-down-list::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+.filter-drop-down-list::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 1px;
+  transition: background 0.2s ease;
+}
+
+.filter-drop-down-list::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Dropdown Item */
+.filter-drop-down-item {
+  padding: 0.1rem 0.1rem;
+  font-size: 0.875rem;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+}
+
+.filter-drop-down-item:hover {
+  background: var(--color-dropdown-hover);
+  color: var(--color-primary);
+  transform: translateY(-0.5px);
+}
+
+/* Dropdown Search Input */
+.filter-drop-down-search {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  color: #000000; /* Dark for readability */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  width: calc(100% - 0.5rem);
+  transition: border-color 0.2s ease;
+}
+
+.filter-drop-down-search:focus {
+  outline: none;
+  border-color: #25A9E0; /* Matmak light blue */
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.2);
+}
+
+/* Dropdown Close Button */
+.filter-drop-down-close-button {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  background: transparent; /* White background */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: #000000; /* Matmak gray */
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-drop-down-close-button:hover {
+  background:transparent; /* Matmak light blue */
+  color: #FFFFFF; /* White for contrast */
+  border-color: #25A9E0;
+}
+
+/* Filter Button */
+.filter-button {
+
+  min-width: 207px;
+  max-width: 207px;
+  position: relative; /* Match filter-item for label positioning */
+}
+
+.filter-button::before {
+  content: attr(data-label);
+  position: absolute;
+  top: -1.25rem;
+  left: 0;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #000000; /* Matmak gray */
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  transition: color 0.2s ease;
+}
+
+.filter-button:hover::before {
+  color: #25A9E0; /* Matmak light blue */
+}
+
+.filter-button .btn {
+  min-width: 207px;
+  max-width: 207px;
+  height: 2rem; /* Match dropdown height */
+  padding: 0.5rem 1rem; /* Match dropdown padding */
+  background: #25A9E0; /* Matmak light blue for button */
+  color: #FFFFFF; /* White for contrast */
+  border: 1px solid #ef0c0c; /* Match dropdown border */
+  border-radius: 10px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); /* Match dropdown shadow */
+  animation: microFade 0.3s ease-out;
+  box-sizing: border-box; /* Ensure padding doesn’t affect size */
+}
+
+.filter-button .btn:hover {
+  box-shadow: 0 1px 4px rgba(37, 169, 224, 0.1); /* Match dropdown hover shadow */
+  animation: faintGlow 1.5s infinite alternate; /* Match dropdown hover animation */
+  border-color: #1E90C2; /* Slightly darker blue for contrast */
+  background: #1E90C2; /* Slightly darker blue for hover */
+}
+
+.filter-button .btn:disabled {
+  background: #F5F5F5; /* Match dropdown disabled background */
+  border-color: #D1D5DB; /* Match dropdown border */
+  color: #6B7280; /* Gray for readability */
+  cursor: not-allowed;
+  opacity: 0.6; /* Match dropdown disabled opacity */
+}
+
+/* ========================================
+   DARK MODE STYLES FOR DROPDOWN
+   ======================================== */
+
+/* Dropdown List - Override inline styles */
+body.dark-theme .filter-drop-down-list[style],
+body.mm.dark-theme .filter-drop-down-list[style],
+body.dark-theme .filter-drop-down-list,
+body.mm.dark-theme .filter-drop-down-list {
+  background-color: var(--color-dropdown-bg) !important;
+  border: 1px solid var(--color-border-light) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+/* Dropdown Search Input - Override inline styles */
+body.dark-theme .filter-drop-down-search[style],
+body.mm.dark-theme .filter-drop-down-search[style],
+body.dark-theme .filter-drop-down-search,
+body.mm.dark-theme .filter-drop-down-search {
+  background-color: var(--color-dropdown-search-bg) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .filter-drop-down-search[style]:focus,
+body.mm.dark-theme .filter-drop-down-search[style]:focus,
+body.dark-theme .filter-drop-down-search:focus,
+body.mm.dark-theme .filter-drop-down-search:focus {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.3) !important;
+}
+
+body.dark-theme .filter-drop-down-search::placeholder,
+body.mm.dark-theme .filter-drop-down-search::placeholder {
+  color: var(--color-text-tertiary) !important;
+  opacity: 0.7;
+}
+
+/* Dropdown Items - Override inline styles */
+body.dark-theme .filter-drop-down-item[style],
+body.mm.dark-theme .filter-drop-down-item[style],
+body.dark-theme .filter-drop-down-item,
+body.mm.dark-theme .filter-drop-down-item {
+  color: var(--color-text-primary) !important;
+  background-color: transparent !important;
+}
+
+body.dark-theme .filter-drop-down-item:hover,
+body.mm.dark-theme .filter-drop-down-item:hover {
+  background-color: var(--color-dropdown-hover) !important;
+  color: var(--color-primary) !important;
+}
+
+                                                               /* Dropdown Close Button - Dark Mode */
+body.dark-theme .filter-drop-down-close-button,
+body.mm.dark-theme .filter-drop-down-close-button {
+  background: transparent !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .filter-drop-down-close-button:hover,
+body.mm.dark-theme .filter-drop-down-close-button:hover {
+  background: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Filter Button Label - Dark Mode */
+body.dark-theme .filter-button::before,
+body.mm.dark-theme .filter-button::before {
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .filter-button:hover::before,
+body.mm.dark-theme .filter-button:hover::before {
+  color: var(--color-primary) !important;
+}

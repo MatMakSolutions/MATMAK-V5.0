@@ -1,0 +1,5348 @@
+[
+  {
+    "Plotter Name": "AIP",
+    "Model": "AIP 0720",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "AIP",
+    "Model": "AIP 0800",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "AIP",
+    "Model": "AIP 1120",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "AIP",
+    "Model": "AIP 1360",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "APD-Anagraph",
+    "Model": "APD-Anagraph Express or Elite",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "APD-Anagraph",
+    "Model": "APD-Anagraph PD2400",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "APD-Anagraph",
+    "Model": "APD-Anagraph PD3000",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "APD-Anagraph",
+    "Model": "APD-Anagraph PD4000",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "APD-Anagraph",
+    "Model": "APD-Anagraph PD4800",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "ASC",
+    "Model": "ASC 365",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 1000 Series",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 200 Series",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "PA0,0",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 315 Gold Touch",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj1",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 536",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 724",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "bj1;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 800 Gold Touch",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj1",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph 800 Series",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph ITEC Series",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "PA0,0",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph with optical sensor",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "bj1;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Datagraph",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "PA0,0",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Allen Datagraph",
+    "Model": "Allen Hot Tip Gold Touch",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "bj3",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "ARISTOMAT 200 210 Series",
+    "Protocol": "GCode",
+    "Move Up": "G1X{0:0}Y{1:0}",
+    "Move Down": "G1X{0:0}Y{1:0}",
+    "Start": "%\r\nG17G0D0",
+    "Finish": "G0D0M2"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "ARISTOMAT DSP21CG Controller",
+    "Protocol": "GCode",
+    "Move Up": "G1X{0:0}Y{1:0}",
+    "Move Down": "G1X{0:0}Y{1:0}",
+    "Start": "%FSI",
+    "Finish": "M0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "Aristo AG850",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "Aristo Camera",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "Aristograph 600",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "Aristograph",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Aristo",
+    "Model": "Aristomat 1310 or 1317",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Baldor",
+    "Model": "Baldor",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Black Cat",
+    "Model": "Cougar 24",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Bridge",
+    "Model": "Bridge C24",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U\r\n",
+    "Finish": "@ U0,0 @"
+  },
+  {
+    "Plotter Name": "Bridge",
+    "Model": "Bridge Pro 1350",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "COPAM",
+    "Model": "CP 2500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "COPAM",
+    "Model": "CP 3050",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "COPAM",
+    "Model": "CP 3500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "COPAM",
+    "Model": "CP 4050",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "COPAM",
+    "Model": "CP 4500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "CSR",
+    "Model": "CSR Ecom 700",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "CSR",
+    "Model": "GRAPHITYP CSR",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Creation",
+    "Model": "CR 1200",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PA",
+    "Finish": "IN;PA;PU0,0;IN;SP0;"
+  },
+  {
+    "Plotter Name": "Creation",
+    "Model": "CR 630",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PA",
+    "Finish": "IN;PA;PU0,0;IN;SP0;"
+  },
+  {
+    "Plotter Name": "Creation",
+    "Model": "PCUT CT 1200",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Creation",
+    "Model": "PCUT CT 630",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Creation",
+    "Model": "PCUT CT 900",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "DGI",
+    "Model": "DGI OM 130p",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "DGI",
+    "Model": "DGI OM 150p",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "DGI",
+    "Model": "DGI OM 60p",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Dataplot",
+    "Model": "Emblem EC60",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";: EC1",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Destiny",
+    "Model": "Destiny 1500",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Destiny",
+    "Model": "Destiny 4000",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Dika",
+    "Model": "DK 1150",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Dika",
+    "Model": "DK 1350",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Dika",
+    "Model": "DK 1700",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Dika",
+    "Model": "DK 720",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Dika",
+    "Model": "DK 880",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "EXTREME",
+    "Model": "EX-2500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "EXTREME",
+    "Model": "EX-3050",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "EXTREME",
+    "Model": "EX-3500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "EXTREME",
+    "Model": "EX-4050",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "EXTREME",
+    "Model": "EX-4500",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Encad",
+    "Model": "NovaCut",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0B",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Flycut",
+    "Model": "Flycut 1100",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Flycut",
+    "Model": "Flycut 1350",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Flycut",
+    "Model": "Flycut 1600",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Flycut",
+    "Model": "Flycut 720",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Flycut",
+    "Model": "Flycut 850",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison C12",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U\r\n",
+    "Finish": "@ U0,0 @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison C18",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U\r\n",
+    "Finish": "@ U0,0 @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison C24",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U\r\n",
+    "Finish": "@ U0,0 @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison C30",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U\r\n",
+    "Finish": "@ U0,0 @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison C48",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison S24",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA",
+    "Finish": "IN;PA;PU0,0;IN"
+  },
+  {
+    "Plotter Name": "Foison",
+    "Model": "Foison S48",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA",
+    "Finish": "IN;PA;PU0,0;IN"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Bengal",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Bobcat 30",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Bobcat 60",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert 24 LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert 24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert 52 LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert II 24 LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert II 52 LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert Pro 132",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Expert Pro 60",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "GCC Nautilus NL-600",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X\r\n\u001b%1B",
+    "Finish": "\u001b%1A\u001bE\u001b%-12345X\r\n\u001bE$"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "GCC Nautilus NL-900",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X\r\n\u001b%1B",
+    "Finish": "\u001b%1A\u001bE\u001b%-12345X\r\n\u001bE$"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar II 101S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar II 132S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar II 61S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar III JG-101S (AAS)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar III JG-132S (AAS)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar III JG-183S (AAS)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar III JG-61S (AAS)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar III JG-76S (AAS)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar IV-101S (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar IV-132S (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar IV-183S (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar IV-61 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar JG-101S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar JG-132S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar JG-61S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar JG-76S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-101LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-101S (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-132LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-132S (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-183LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-61 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Jaguar V-61LX (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Puma II-60",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Puma III-132 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Puma III-60 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Puma IV-132(AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Puma IV-60(AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX-101S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX-132S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX-183S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX-61",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX2-101S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX2-132S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX2-183S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "RX2-61",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "SignPal Puma II-132",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "SignPal Sable 60",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Zen Cut Black 24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Zen Cut Black 50",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Zen Cut Green 24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GCC",
+    "Model": "Zen Cut Green 50",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "GRI",
+    "Model": "GRI ProVinylCutter",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";: EC1",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "CAMM-GL Mode 1 Cutter",
+    "Protocol": "CAMMGLMode1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "M {0:0},0"
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "CAMM-GL Mode 2 Cutter",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "DMPL Mode 1 Cutter",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "DMPL Mode 2 Cutter",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "DMPL Mode 3 Cutter",
+    "Protocol": "DMPL3",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "DMPL Mode 4 Cutter",
+    "Protocol": "DMPL4",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "DMPL Mode 6 Cutter",
+    "Protocol": "DMPL6",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "G-Code Cutter",
+    "Protocol": "GCode",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "GPGL Cutter",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Generic",
+    "Model": "HPGL Cutter",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "EmbossTrack 24",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "EmbossTrack 36",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "EmbossTrack 48",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "FasTrack 1000",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "FasTrack 1300",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "FasTrack 550",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "FasTrack 650",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "FasTrack 750",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "GS 15 Plus",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "GS 750 Plus",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "GSX 15 Plus",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "HS 15 Plus",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "HS 750 Plus",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "Odyssey 20",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "Odyssey 50",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "P2C 1200 (OPOS)",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "P2C 1600 (OPOS)",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";: EC1",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "P2C 600 (OPOS)",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "Tempo 600",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "enVision 375",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Gerber",
+    "Model": "enVision 750",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Glider",
+    "Model": "Glider Controller",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "@ST",
+    "Finish": "M0,{1:0}"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 2300-50",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 4100-100",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 4100-130",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 4100-75",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 5100-100",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 5100-130",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 5100-150",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec 5100-75",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE1000-60",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE2000-120",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE2000-60",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE3000-120",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE3000-40",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE3000-60",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE5000-120",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE5000-40",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE5000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-120 Plus",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-120",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-40 Plus",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-40",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-60 Plus",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE6000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE7000-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE7000-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE7000-40",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE7000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE8000-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE8000-40",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CE8000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec CraftRobo",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2100 3100-120",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2100 3100-50",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2100 3100-60",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2100 3100-90_100",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2250-120",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2250-180",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC2250-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC7000-100",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC7000-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC7000-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC7000-75",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8000-100",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8000-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8000-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8000-75",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8600-100",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8600-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8600-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8600-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC8600-75",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC9000-100",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC9000-140",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC9000-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FC9000-75",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FCX2000-120",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FCX2000-180",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU0,{1:0}"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Graphtec FCX2000-60",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Silhouette Cameo 4 WHT-5T",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b\u0004",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Silhouette Cameo",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b\u0004",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Graphtec",
+    "Model": "Silhouette Portrait",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "TB50,0;FO0;H;"
+  },
+  {
+    "Plotter Name": "Gunner",
+    "Model": "Gunner GR8000-140",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Gunner",
+    "Model": "Gunner GR8000-180",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Gunner",
+    "Model": "Gunner GR8000-80",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Helitin",
+    "Model": "T K1350",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Helitin",
+    "Model": "T K1750",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Helitin",
+    "Model": "T K500",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Helitin",
+    "Model": "T K720",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Helo",
+    "Model": "Helo HSP-720",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-1120",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-1360",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-360",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-720",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-800",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "HengXing",
+    "Model": "Rabbit HX-960",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Hewlett-Packard",
+    "Model": "HP 7440",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "SP"
+  },
+  {
+    "Plotter Name": "Hewlett-Packard",
+    "Model": "HP 7475A",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "SP"
+  },
+  {
+    "Plotter Name": "Hewlett-Packard",
+    "Model": "HP DesignJet",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "BP;PS600000,50000;PR",
+    "Finish": "PG"
+  },
+  {
+    "Plotter Name": "Houston Instruments",
+    "Model": "DMP100",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";: EC1",
+    "Finish": "U {0:0},0"
+  },
+  {
+    "Plotter Name": "Houston Instruments",
+    "Model": "DMP40",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";: EC1 EF K N0 U P1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Houston Instruments",
+    "Model": "DMP65",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";: EC1 U",
+    "Finish": "U {0:0},0"
+  },
+  {
+    "Plotter Name": "ICut",
+    "Model": "ICut",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Appli-K 300",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;\r\nVS32,1;\r\nVS32,2;\r\nVS32,3;\r\nVS32,4;\r\nVS32,5;\r\nVS32,6;\r\nVS32,7;\r\nVS32,8;\r\nVS32,9;\r\nWU0;\r\nPW0.350,1;\r\nPW0.350,2;\r\nPW0.350,3;\r\nPW0.350,4;\r\nPW0.350,5;\r\nPW0.350,6;\r\nPW0.350,7;\r\nPW0.350,8;\r\nPW0.350,9;",
+    "Finish": "SP0;"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "IOLINE STUDIO 7",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";:\r\nEC1",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "IOLINE STUDIO 8",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Ioline 100 System",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Ioline 5000",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:\r\nEC1",
+    "Finish": "U{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Ioline SmarTrac Contour",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Ioline SmarTrac IS Series",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Ioline",
+    "Model": "Ioline Super88 Classic",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "JOYS",
+    "Model": "PF1350",
+    "Protocol": "DMPL1/HPGL",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "JSI",
+    "Model": "JSI-P-24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "SP0"
+  },
+  {
+    "Plotter Name": "JSI",
+    "Model": "JSI-P-30",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "SP0"
+  },
+  {
+    "Plotter Name": "Jiachen",
+    "Model": "JC-1100E",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Jiachen",
+    "Model": "JC-1350E",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Jiachen",
+    "Model": "JC-720E",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Jiachen",
+    "Model": "JC-850E",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Jinka",
+    "Model": "Jinka JK-1351",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@ @"
+  },
+  {
+    "Plotter Name": "Jinka",
+    "Model": "Jinka JK-721",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@ @"
+  },
+  {
+    "Plotter Name": "Kasa",
+    "Model": "Kasa K1355",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "U0,0 U F @"
+  },
+  {
+    "Plotter Name": "Klic-N-Kut",
+    "Model": "ACS Design Studio Eagle",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "IN;PA;PU0,0;IN;"
+  },
+  {
+    "Plotter Name": "Klic-N-Kut",
+    "Model": "KNK Zing",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0};",
+    "Move Down": "D{0:0},{1:0};",
+    "Start": "ZG;PN1;PA;U0,0;",
+    "Finish": " @;"
+  },
+  {
+    "Plotter Name": "Klic-N-Kut",
+    "Model": "Klic-N-Kut MAXX Air",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "MX;IN",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Klic-N-Kut",
+    "Model": "Klic-N-Kut",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "List",
+    "Model": "List 1350",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN;T1",
+    "Finish": "!"
+  },
+  {
+    "Plotter Name": "Liyu",
+    "Model": "DC450",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "Liyu",
+    "Model": "DC600",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "Liyu",
+    "Model": "SC450",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "Liyu",
+    "Model": "SC630",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "Liyu",
+    "Model": "SC950",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "TC-3000",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "IN;P1",
+    "Finish": " @P1,U0,0;@"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "TC-4000",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "IN;P1",
+    "Finish": " @P1,U0,0;@"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "TC-5000",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "IN;P1",
+    "Finish": " @P1,U0,0;@"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 1000-30",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 1000-40",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 1000-50",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 2000-30",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 2000-40",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "Tiger 2000-50",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "XY-300P",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "XY-380P",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "XY-450P",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "XY-540P",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Master",
+    "Model": "XY-660P",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": ";:H L0 EC1 U IN;",
+    "Finish": " U F @"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CF2 1215",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CF2 1218",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CF2 912",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF;PU",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-100 EX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-100 SRII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-100 SRIII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-100AR",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 EX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 FX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 FXII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 SR",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 SRII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-130 SRIII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-160 FX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-160 FXII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-60 EX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-60 SL",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-60 SR",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-60 SRIII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-60 ST",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-61",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF;PU",
+    "Finish": "ZT0"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-75 FX",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-75 FXII",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CG-75 ML",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CJV150-130-Test",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CJV150-160",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CJV30-130",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE;"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CJV30-160",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE;"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "CJV300-130",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "ZT0;JE"
+  },
+  {
+    "Plotter Name": "Mimaki",
+    "Model": "Mimaki Generic",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF;PU",
+    "Finish": "ZT0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Kona 1400",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Kona 1650",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Kona 760",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh Junior Series",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh SC 1400 D",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh SC 850 D",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh SC PRO 1400",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh SC PRO 1650",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "Mutoh SP-920",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 1300",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 1800",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 2-1300",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 2-1800",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 2-600",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Mutoh",
+    "Model": "ValueCut 600",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex 3D Upper Left",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0},-200;",
+    "Move Down": "PD{0:0},{1:0},0;",
+    "Start": ";IN;ZZ1;",
+    "Finish": "PU0,0;\r\nSP0;"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex Center",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";IN;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex Lower Left",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";IN;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex Lower Right",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";IN;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex Upper Left",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";IN;",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Newing-Hall",
+    "Model": "Apex Upper Right",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "PixMax",
+    "Model": "PixMax",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Plotter Technology",
+    "Model": "Duet 1800ST",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "PreArt",
+    "Model": "CP150",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "M0,{1:0}"
+  },
+  {
+    "Plotter Name": "QuicKutz",
+    "Model": "Silhouette",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Red Sail",
+    "Model": "RS1120",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Red Sail",
+    "Model": "RS1360",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Red Sail",
+    "Model": "RS720",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Red Sail",
+    "Model": "RS800",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Renown",
+    "Model": "Razr 1200",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Renown",
+    "Model": "Razr 630",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Renown",
+    "Model": "Razr 900",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "BN-20",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (CM or CX 24 12)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1000)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1050)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1100 1100A)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1200 1210)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1410)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1610)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1800)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-1850 or 1860)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-900 or 910)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CAMM-1 (PNC-950 or 960)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CJ-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CJ-60",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CJ-70",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CM 300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CM 400",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CM 500",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CS-20 CAMMSCRIBE",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CX 300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CX 400",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CX 500",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "CammJet 500",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "ColorCamm (PNC-5000)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001bE\u001b%0BBP5,1;",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-20",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-30 CAMMSCRIBE",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-30A CAMMSCRIBE",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-350",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-400 Raster Braille",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-400",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-600 Raster Braille",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "EGX-600",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GR 420",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GR 540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GR 640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GR2-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GR2-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GS 24",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = CAMMGL3\r\n",
+    "Finish": ";\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 24",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ";\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 300-V2",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 400-V2",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 400",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 500",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "GX 640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": "\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "LEC-300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "MDX-50",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "!MC0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "MDX-500",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "!MC0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "MDX-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "!MC0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "PC-12",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001bE\u001b%\u00a0ABP5,1;",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "PC-50",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BBP5,1;",
+    "Finish": "\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "PC-60",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BBP5,1;",
+    "Finish": "\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "PC-600",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BBP5,1;",
+    "Finish": "\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "PNC-2300A",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF;PU",
+    "Finish": "!MC0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SC-540 EX",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SC-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SC-545 EX 4 Color",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SC-545 EX 6 Color",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SC-545 EX",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SG-300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SG-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SP-300i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SP-540V",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SP-540i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SP300 and SP300V",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001bE\u001b%0A\u001b%0B\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "SolJet",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika II (STX-15)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika II (STX-7)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika II (STX-8)",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika SV-12",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika SV-15",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Stika SV-8",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;DF",
+    "Finish": "PU {0:0},0"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Uniform Cadet Plus",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Uniform Cadet",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "Uniform Grenadier",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%0BIN;BP5,1",
+    "Finish": "!PG0;\u001bE"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG2-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG2-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG3-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VG3-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VP-300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VP-300i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VP-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VP-540i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-300",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-300i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-420",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-540",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-540i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640 4Color",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640 6Color",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640 MT Inline",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640 MT",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "VS-640i",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "XC-540 - 4 Color White",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "XC-540 - 4C Inline White",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "XC-540 - 6 Color",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "XC-540 MT",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL SET CROPMARK = ON\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;PS,",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "Roland",
+    "Model": "XR-640",
+    "Protocol": "CAMMGLMode2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "Finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  },
+  {
+    "Plotter Name": "SAGA",
+    "Model": "1350 IIP",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "SAGA",
+    "Model": "1750 IIP",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "SAGA",
+    "Model": "420 IIP",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "SAGA",
+    "Model": "720 IIP",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "STM Robotics",
+    "Model": "STM Force 2 122",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "STM Robotics",
+    "Model": "STM Force 2 61",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Secabo",
+    "Model": "C120 III",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "IN;PA;PU0,0;IN;"
+  },
+  {
+    "Plotter Name": "Secabo",
+    "Model": "C120",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Secabo",
+    "Model": "C40",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Secabo",
+    "Model": "C60 III",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "IN;PA;PU0,0;IN;"
+  },
+  {
+    "Plotter Name": "Secabo",
+    "Model": "C60",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1100H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1100ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1350H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1350ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1600H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-1600ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-720H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-720ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-850H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-850ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-870H",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 EC1 U\r\n",
+    "Finish": "@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "SeikiTech",
+    "Model": "SK-870ds",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;PA;",
+    "Finish": "U F U @"
+  },
+  {
+    "Plotter Name": "SignMax",
+    "Model": "SignMax 48",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "EnduraCUT 24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GFC-02",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GRC-03",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GRC-101S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GRC-132S",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GRC-23",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "SignPal",
+    "Model": "GRC-61",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D120 Pharos OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D120 R Series OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D140 Pharos OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D140 R Series OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D160 Pharos OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D160 R Series OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D60 Pharos OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D60 R Series OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D75 Pharos OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "D75 R Series OPOS",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "DC3",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "DC4",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "HP Latex 54 Plus",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "HP Latex 64 Plus ",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S One D120",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S One D140",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S One D160",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S One D60",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S One D75",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S120D OPOS S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S140D OPOS S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S160D OPOS S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 120D S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 120T S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 140D S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 140T S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 160D S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 160T S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 75D S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S2 75T S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 D120",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 D140",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 D160",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 D75",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "\u001b;@:\r\nSET EMULATION = DMPL.\r\nEND.\r\n;: EC1",
+    "Finish": "e"
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 T120",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 T140",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 T160",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S3 T75",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "S75D OPOS S Class",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Summa",
+    "Model": "Summagraphics T1000 T600",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Teneth",
+    "Model": "TH1180",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Teneth",
+    "Model": "TH1300",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Teneth",
+    "Model": "TH1600L",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Teneth",
+    "Model": "TH330",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "Teneth",
+    "Model": "TH740",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@ U0,0 U F U @"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "LaserPoint 24",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "LaserPoint 36",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "LaserPoint 48",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "|@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine GoldCut 24",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine GoldCut 34",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine MH or EH 1101",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine MH or EH 1351",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine MH or EH 721",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Refine MH or EH 871",
+    "Protocol": "DMPL1",
+    "Move Up": "U {0:0},{1:0}",
+    "Move Down": "D {0:0},{1:0}",
+    "Start": ";:H A L0 ECN U",
+    "Finish": "@"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC2 28",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC2 34",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC2 53",
+    "Protocol": "DMPL2",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC24",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC34",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "SC50",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": ";:H A EC1",
+    "Finish": " @"
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 2 28",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 2 53",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 2 68",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 3 28",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 3 53",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "USCutter",
+    "Model": "Titan 3 68",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Vevor",
+    "Model": "Vevor 1350",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Vevor",
+    "Model": "Vevor 375",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Vevor",
+    "Model": "Vevor 720",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Vevor",
+    "Model": "Vevor 870",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "!PG"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "EnduraCut2 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "EnduraCut3 (AASII)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "GRC-101",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "GRC-132",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "GRC-61",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "GRC-76",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "LYNX",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Panther 24in (610mm)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Panther 30in (760mm)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Panther 40in (1200mm)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Panther 52in (1320mm)",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0};$",
+    "Start": "IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q-100",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q-130",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q-160",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q-60",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q-75",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q24",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q30",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q42",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q54",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "Q64",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "QE-60",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "QE-6000",
+    "Protocol": "GPGL/HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "R24",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "R31",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "R39",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Vinyl Express",
+    "Model": "R53",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "IN",
+    "Finish": "!PG0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA10 BL",
+    "Protocol": "DMPL1",
+    "Move Up": "A{0:0},{1:0}",
+    "Move Down": "B{0:0},{1:0}",
+    "Start": "",
+    "Finish": "A{0:0},0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA10 BN",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "",
+    "Finish": "U{0:0},0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA10 TA2",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "",
+    "Finish": "U{0:0},0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA30",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF;IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA41",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "DF;IN",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Wild",
+    "Model": "TA410 w Router",
+    "Protocol": "HPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "IN;FO1",
+    "Finish": "FO0"
+  },
+  {
+    "Plotter Name": "Workhorse",
+    "Model": "Workhorse 2 55",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Workhorse",
+    "Model": "Workhorse 2 64",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Workhorse",
+    "Model": "Workhorse 28",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Workhorse",
+    "Model": "Workhorse 53",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": ""
+  },
+  {
+    "Plotter Name": "Xyron",
+    "Model": "Wishblade",
+    "Protocol": "GPGL",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": "&100,100,100,^0,0,\\0,0,",
+    "Finish": "M{0:0},0"
+  },
+  {
+    "Plotter Name": "Zeus",
+    "Model": "Zeus Laser Cutter",
+    "Protocol": "DMPL1",
+    "Move Up": "",
+    "Move Down": "",
+    "Start": ";:HOA,ECN,U,EO50,30,90,100",
+    "Finish": "U0,0"
+  },
+  {
+    "Plotter Name": "Zing",
+    "Model": "KNK Zing Orbit 15 inch",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "ZG;PN1;PA;U0,0",
+    "Finish": " @;"
+  },
+  {
+    "Plotter Name": "Zing",
+    "Model": "KNK Zing Orbit 24 inch",
+    "Protocol": "DMPL1",
+    "Move Up": "U{0:0},{1:0}",
+    "Move Down": "D{0:0},{1:0}",
+    "Start": "ZG;PN1;PA;U0,0",
+    "Finish": " @;"
+  },
+  {
+    "Plotter Name": "Zund",
+    "Model": "D3",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Zund",
+    "Model": "G3",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  },
+  {
+    "Plotter Name": "Zund",
+    "Model": "S3",
+    "Protocol": "HPGL",
+    "Move Up": "PU{0:0},{1:0}",
+    "Move Down": "PD{0:0},{1:0}",
+    "Start": "",
+    "Finish": "PU{0:0},0"
+  }
+]

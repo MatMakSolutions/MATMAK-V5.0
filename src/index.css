@@ -1,0 +1,229 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin    : auto;
+  max-width : 38rem;
+  padding   : 2rem;
+}
+
+.dragbar {
+  -webkit-app-region: drag;
+}
+
+html * {
+  user-select         : none;
+  -webkit-user-select : none;
+}
+
+.password-container {
+  position : relative;
+  /*width    : 250px;*/
+}
+
+.password-input {
+  width         : 100%;
+}
+
+.toggle-password {
+  position  : absolute;
+  right     : 0px;
+  top       : 50%;
+  transform : translateY(-50%);
+  cursor    : pointer;
+}
+
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+input:focus-visible, textarea:focus-visible, select:focus-visible{
+  outline: none;
+}
+
+input, textarea, select {
+  outline: none!important;
+}
+
+/* Top bar styling */
+.top-bar {
+  height: 70px;
+  min-height: 70px;
+}
+
+/* Toolbar button neon hover effect */
+.tb-button {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-right: 1px solid #25A9E0;
+}
+
+.tb-button:hover {
+  border: 1px solid var(--color-border-primary);
+  background-color: var(--color-bg-active);
+  box-shadow: var(--shadow-primary),
+              inset 0 0 10px rgba(37, 169, 224, 0.2);
+}
+
+/* Toolbar scrollbar styling - matching left sidebar design */
+.toolbar-container {
+  scrollbar-width: thin;
+  scrollbar-color: #25A9E0 #1a1a1a;
+}
+
+.toolbar-container::-webkit-scrollbar {
+  height: 8px;
+  background: #1a1a1a;
+}
+
+.toolbar-container::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.toolbar-container::-webkit-scrollbar-thumb {
+  background: #25A9E0;
+  border-radius: 4px;
+  border: 1px solid #1a1a1a;
+}
+
+.toolbar-container::-webkit-scrollbar-thumb:hover {
+  background: #3dbef5;
+}
+/* new css for the drop down list in search*/
+/* Dropdown container */
+/* Dropdown container */
+.filter-drop-down-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 180px; /* Slightly wider for readability */
+  background-color: var(--color-dropdown-bg);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border-medium);
+  border-radius: 12px; /* More rounded corners */
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-in-out; /* Smooth dropdown opening */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Dropdown fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* Slide in effect */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Search box styling */
+.filter-drop-down-search {
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid var(--color-border-medium);
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  background-color: var(--color-dropdown-search-bg);
+  color: var(--color-text-primary);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-drop-down-search:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 5px rgba(37, 169, 224, 0.5);
+}
+
+/* Dropdown item styling */
+.filter-drop-down-item {
+  padding: 12px 20px; /* More padding for easier clicking */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space for icons or additional content */
+  color: var(--color-text-primary);
+}
+
+.filter-drop-down-item:hover {
+  background-color: var(--color-dropdown-hover);
+  color: var(--color-primary);
+}
+
+/* Close button styling */
+.filter-drop-down-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #007bff; /* Blue color matching the attached photo */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 50%; /* Circular button */
+  cursor: pointer;
+  font-size: 18px; /* Slightly larger font for clarity */
+  font-weight: bold;
+  width: 30px; /* Larger size for better visibility */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for prominence */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.filter-drop-down-close-button:hover {
+  background: #0056b3; /* Darker blue on hover for effect */
+  transform: scale(1.2); /* Add a zoom-in effect */
+}
+
+.filter-drop-down-close-button:focus {
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.8); /* Blue glow for accessibility */
+}
+
+/* Scrollbar styling */
+.filter-drop-down-list {
+  max-height: 250px; /* Limit height for long lists */
+  overflow-y: auto;
+}
+
+.filter-drop-down-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.filter-drop-down-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.filter-drop-down-list::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.filter-drop-down-list::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Accessibility: Focus styles */
+.filter-drop-down-item:focus {
+  outline: 2px solid #007bff;
+  outline-offset: -2px;
+}
+
+
+body.loading * {
+  pointer-events: none !important;
+  cursor: wait !important;
+}
+
+
+
+
+

@@ -1,0 +1,58 @@
+{
+  "boardWidth": 1465,
+  "boardLenght": 15000,
+  "rotationStep": 15,
+  "curvedSplitEnabled": false,
+  "curvedSplitDepth": 200,
+  "nesting": {
+    "polyognTolerance": 10,
+    "spaceBetweenParts": 10,
+    "rotationSteps": 4,
+    "geneticAlgorithm": {
+      "populationSize": 10,
+      "mutationRate": 4,
+      "generation": 0
+    }
+  },
+  "cut": {
+    "target": "COMPORT",
+    "printer": {
+      "name": "Cutter"
+    },
+    "summa": {
+      "model": "S1/S2|USB",
+      "blade": ""
+    },
+    "usb": {
+      "path": "testusb"
+    },
+    "network": {
+      "ip": "192.168.1.27",
+      "port": 9100
+    },
+    "COMPORT": {
+      "portName": "COM1",
+      "baudRate": "38400",
+      "parity": "none",
+      "Bytesize": "8",
+      "stopBits": "1"
+    },
+    "cuttingProtocol": "Custom",
+    "swapAxis": "false",
+    "returntooringin": "false",
+    "feedaftercut": "true",
+    "Velocity": "false",
+    "Force": "false",
+    "ForceValue": "",
+    "VelocityValue": ""
+  },
+  "custom": {
+    "plotterName": "Roland",
+    "model": "SP-300i",
+    "protocol": "CAMMGLMode2",
+    "moveUp": "",
+    "moveDown": "",
+    "start": "\u001b%-12345X@PJL RESET\r\n@PJL SET CROPMARK = OFF\r\n@PJL ENTER LANGUAGE = RDGL3\r\nBP5,1;!ST1;",
+    "finish": "!PG0;\u001b%-12345X@PJL RESET\r\n@PJL ENTER LANGUAGE = RESET\r\n$"
+  }
+}

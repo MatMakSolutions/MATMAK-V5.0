@@ -1,0 +1,6 @@
+{
+  "backendUrl": "http://localhost:3000",
+  "updateUrl": "https://backenduatapis.matmaksolutions.com/api/",
+  "checkForUpdate": true,
+  "lastUpdate": "3.0.0003"
+}

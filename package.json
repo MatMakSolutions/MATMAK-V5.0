@@ -1,0 +1,75 @@
+{
+  "name": "mm-ui",
+  "productName": "mm-ui",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/updateMain.js",
+  "build": {
+    "files": [
+      "assets/**",
+      "resources/**",
+      ".vite/**",
+      "main.js"
+    ]
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "@electron-forge/maker-deb": "^7.3.1",
+    "@electron-forge/maker-rpm": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-zip": "^7.3.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron-forge/plugin-vite": "^7.3.1",
+    "@electron/fuses": "^1.7.0",
+    "@types/adm-zip": "^0.5.7",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "electron": "29.1.5",
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.0",
+    "js-angusj-clipper": "^1.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4",
+    "vite": "^5.0.12"
+  },
+  "keywords": [],
+  "author": {
+    "name": "squad1-teaminthecloud",
+    "email": "158607145+squad1-teaminthecloud@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ekkojs/web-controls": "^1.0.28",
+    "@serialport/parser-readline": "^13.0.0",
+    "@types/concaveman": "^1.1.6",
+    "@types/node-fetch": "^2.6.13",
+    "@types/point-in-polygon": "^1.1.5",
+    "adm-zip": "^0.5.16",
+    "bezier-js": "^6.1.4",
+    "clipper-lib": "^6.4.2",
+    "concaveman": "^1.2.1",
+    "cors-anywhere": "^0.4.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^11.0.2",
+    "node-fetch": "^3.3.2",
+    "paper": "^0.12.18",
+    "paperjs-offset": "^1.0.8",
+    "path-intersection": "^3.1.0",
+    "pixi.js": "^8.8.0",
+    "point-in-polygon": "^1.1.0",
+    "serialport": "^13.0.0",
+    "simplify-js": "^1.2.4",
+    "svg-path-parser": "^1.1.0",
+    "svgpath": "^2.6.0",
+    "ts-md5": "^1.3.1",
+    "undo-redo-ts": "^1.0.2"
+  }
+}

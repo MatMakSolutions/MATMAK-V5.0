@@ -1,0 +1,126 @@
+/* Overlay to darken the background */
+.shortcuts-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* The main popup window */
+.shortcuts-popup {
+  background-color: var(--color-bg-dialog);
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+  width: 90%;
+  max-width: 550px;
+  color: var(--color-text-primary);
+  border: 1px solid var(--color-border-medium);
+}
+
+/* Header with title and close button */
+.shortcuts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--color-border-medium);
+}
+
+.shortcuts-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.shortcuts-close-btn {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.shortcuts-close-btn:hover {
+  color: var(--color-text-primary);
+}
+
+/* Content area for all categories */
+.shortcuts-content {
+  padding: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Styling for each category (e.g., Navigation, Editing) */
+.shortcuts-category h3 {
+  font-size: 16px;
+  color: var(--color-text-primary);
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Grid layout for the shortcuts list */
+.shortcuts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 10px;
+  font-size: 14px;
+}
+
+.shortcut-action {
+  color: var(--color-text-secondary);
+  text-align: left;
+}
+
+/* This is the cool part - makes text look like keyboard keys */
+.shortcut-keys {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* A little space between keys/icons */
+  flex-wrap: wrap;
+}
+
+.shortcut-keys kbd {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #bbb;
+  border-radius: 4px;
+  padding: 3px 6px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  white-space: nowrap;
+}
+.shortcut-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+.shortcut-icon svg {
+  width: 50px;
+  height: 35px;
+  /* Ensures the SVG color matches the text color */
+  fill: none; 
+}
+
+/* This is just a suggestion to make the '+' signs less prominent */
+.shortcut-keys::after {
+ 
+    margin: 0 4px;
+}
+.shortcut-keys > *:not(:last-child)::after {
+    content: "+";
+    color: #888;
+    margin: 0 4px;
+}

@@ -1,0 +1,25 @@
+{
+  "version": "3.0.0005",
+  "files": [
+    {
+      "source": "preload.js",
+      "target": "resources\\app\\.vite\\build\\preload.js"
+    },
+    {
+      "source": "main.js",
+      "target": "resources\\app\\.vite\\build\\main.js"
+    },
+    {
+      "source": "index.html",
+      "target": "resources\\app\\.vite\\renderer\\main_window\\index.html"
+    },
+    {
+      "source": "index-CdLYs5Sd.css",
+      "target": "resources\\app\\.vite\\renderer\\main_window\\assets\\index-CdLYs5Sd.css"
+    },
+    {
+      "source": "index-CIa6b5uo.js",
+      "target": "resources\\app\\.vite\\renderer\\main_window\\assets\\index-CIa6b5uo.js"
+    }
+  ]
+}

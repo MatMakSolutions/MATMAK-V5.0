@@ -1,0 +1,632 @@
+/* ========================================
+   DARK MODE STYLING FOR SPECIFIC POPUPS
+   AnnotationPopup, MirroringPopup, RollSelectionPopup
+   ======================================== */
+
+/* Annotation Popup - override inline styles */
+body.dark-theme .annotation-popup,
+body.mm.dark-theme .annotation-popup {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .annotation-title-bar,
+body.mm.dark-theme .annotation-title-bar {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .annotation-popup div[style*="padding"],
+body.mm.dark-theme .annotation-popup div[style*="padding"] {
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .annotation-popup h3[style],
+body.mm.dark-theme .annotation-popup h3[style],
+body.dark-theme .annotation-popup label[style],
+body.mm.dark-theme .annotation-popup label[style] {
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .annotation-popup textarea[style],
+body.mm.dark-theme .annotation-popup textarea[style],
+body.dark-theme .annotation-popup input[style*="backgroundColor"],
+body.mm.dark-theme .annotation-popup input[style*="backgroundColor"] {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .annotation-popup button[style],
+body.mm.dark-theme .annotation-popup button[style] {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .annotation-popup button[style]:hover,
+body.mm.dark-theme .annotation-popup button[style]:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Mirroring Popup - override inline styles */
+body.dark-theme .mirroring-popup,
+body.mm.dark-theme .mirroring-popup {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .mirroring-title-bar,
+body.mm.dark-theme .mirroring-title-bar {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .mirroring-popup div[style*="color"],
+body.mm.dark-theme .mirroring-popup div[style*="color"],
+body.dark-theme .mirroring-popup div[style*="padding"],
+body.mm.dark-theme .mirroring-popup div[style*="padding"] {
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .mirroring-popup button[style],
+body.mm.dark-theme .mirroring-popup button[style] {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .mirroring-popup button[style]:hover,
+body.mm.dark-theme .mirroring-popup button[style]:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Roll Selection Popup - override inline styles */
+body.dark-theme .roll-selection-popup,
+body.mm.dark-theme .roll-selection-popup {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .roll-selection-title-bar,
+body.mm.dark-theme .roll-selection-title-bar {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .roll-selection-popup button[style*="backgroundColor"],
+body.mm.dark-theme .roll-selection-popup button[style*="backgroundColor"] {
+  background-color: transparent !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .roll-selection-popup div[style*="color"],
+body.mm.dark-theme .roll-selection-popup div[style*="color"],
+body.dark-theme .roll-selection-popup div[style*="padding"],
+body.mm.dark-theme .roll-selection-popup div[style*="padding"] {
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .roll-selection-popup div[style*="backgroundColor"],
+body.mm.dark-theme .roll-selection-popup div[style*="backgroundColor"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+body.dark-theme .roll-selection-popup div[style*="border"][style*="selected"],
+body.mm.dark-theme .roll-selection-popup div[style*="border"][style*="selected"] {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+body.dark-theme .roll-selection-popup div[style*="cursor"][style*="pointer"]:hover,
+body.mm.dark-theme .roll-selection-popup div[style*="cursor"][style*="pointer"]:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Scrollbars for all three popups */
+body.dark-theme .annotation-popup div[style*="overflowY"],
+body.dark-theme .mirroring-popup div[style*="overflowY"],
+body.dark-theme .roll-selection-popup div[style*="overflowY"],
+body.mm.dark-theme .annotation-popup div[style*="overflowY"],
+body.mm.dark-theme .mirroring-popup div[style*="overflowY"],
+body.mm.dark-theme .roll-selection-popup div[style*="overflowY"] {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+body.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.mm.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.mm.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.mm.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar {
+  width: 8px;
+}
+
+body.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.mm.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.mm.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.mm.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+body.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.mm.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.mm.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.mm.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+body.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .annotation-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .mirroring-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .roll-selection-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ========================================
+   RULER POPUP DARK MODE
+   ======================================== */
+
+/* Main popup container */
+body.dark-theme .ruler-popup,
+body.mm.dark-theme .ruler-popup {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Force override inline styles on ruler-popup */
+body.dark-theme .ruler-popup[style],
+body.mm.dark-theme .ruler-popup[style] {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Title bar */
+body.dark-theme .ruler-title-bar,
+body.mm.dark-theme .ruler-title-bar {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* All text elements */
+body.dark-theme .ruler-popup div,
+body.dark-theme .ruler-popup label,
+body.dark-theme .ruler-popup span,
+body.mm.dark-theme .ruler-popup div,
+body.mm.dark-theme .ruler-popup label,
+body.mm.dark-theme .ruler-popup span {
+  color: var(--color-text-primary) !important;
+}
+
+/* Buttons */
+body.dark-theme .ruler-popup button,
+body.mm.dark-theme .ruler-popup button {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .ruler-popup button:hover,
+body.mm.dark-theme .ruler-popup button:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Selected button state */
+body.dark-theme .ruler-popup button[style*="25A9E0"],
+body.mm.dark-theme .ruler-popup button[style*="25A9E0"] {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Select dropdown */
+body.dark-theme .ruler-popup select,
+body.mm.dark-theme .ruler-popup select {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .ruler-popup select option,
+body.mm.dark-theme .ruler-popup select option {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Checkbox */
+body.dark-theme .ruler-popup input[type="checkbox"],
+body.mm.dark-theme .ruler-popup input[type="checkbox"] {
+  accent-color: var(--color-primary) !important;
+}
+
+/* Instruction box */
+body.dark-theme .ruler-popup div[style*="yellow"],
+body.mm.dark-theme .ruler-popup div[style*="yellow"] {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* ========================================
+   GEOMETRY POPUP DARK MODE
+   ======================================== */
+
+/* Main popup container */
+body.dark-theme .geometry-popup,
+body.mm.dark-theme .geometry-popup {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Force override inline styles on geometry-popup */
+body.dark-theme .geometry-popup[style],
+body.mm.dark-theme .geometry-popup[style] {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Title bar */
+body.dark-theme .geometry-title-bar,
+body.mm.dark-theme .geometry-title-bar {
+  background-color: var(--color-bg-secondary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* All text elements */
+body.dark-theme .geometry-popup div,
+body.dark-theme .geometry-popup label,
+body.dark-theme .geometry-popup span,
+body.mm.dark-theme .geometry-popup div,
+body.mm.dark-theme .geometry-popup label,
+body.mm.dark-theme .geometry-popup span {
+  color: var(--color-text-primary) !important;
+}
+
+/* Buttons */
+body.dark-theme .geometry-popup button,
+body.mm.dark-theme .geometry-popup button {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .geometry-popup button:hover,
+body.mm.dark-theme .geometry-popup button:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Selected button state */
+body.dark-theme .geometry-popup button[style*="25A9E0"],
+body.mm.dark-theme .geometry-popup button[style*="25A9E0"] {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Input fields */
+body.dark-theme .geometry-popup input,
+body.mm.dark-theme .geometry-popup input {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+body.dark-theme .geometry-popup input:focus,
+body.mm.dark-theme .geometry-popup input:focus {
+  border-color: var(--color-primary) !important;
+}
+
+/* ========================================
+   IMPROVED ROLL SELECTION POPUP DARK MODE
+   ======================================== */
+
+/* Roll cards - make them dark - more specific selectors */
+body.dark-theme .roll-selection-popup > div > div > div[style*="cursor: pointer"],
+body.dark-theme .roll-selection-popup div[style*="cursor: pointer"][style*="borderRadius"],
+body.mm.dark-theme .roll-selection-popup > div > div > div[style*="cursor: pointer"],
+body.mm.dark-theme .roll-selection-popup div[style*="cursor: pointer"][style*="borderRadius"] {
+  background-color: var(--color-bg-input) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Override white backgrounds specifically */
+body.dark-theme .roll-selection-popup div[style*="white"],
+body.dark-theme .roll-selection-popup div[style*="#ffff"],
+body.mm.dark-theme .roll-selection-popup div[style*="white"],
+body.mm.dark-theme .roll-selection-popup div[style*="#ffff"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Selected roll card */
+body.dark-theme .roll-selection-popup div[style*="2px solid #25A9E0"],
+body.mm.dark-theme .roll-selection-popup div[style*="2px solid #25A9E0"] {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Text inside roll cards */
+body.dark-theme .roll-selection-popup div[style*="fontWeight"] div,
+body.dark-theme .roll-selection-popup div[style*="color: #666"],
+body.mm.dark-theme .roll-selection-popup div[style*="fontWeight"] div,
+body.mm.dark-theme .roll-selection-popup div[style*="color: #666"] {
+  color: var(--color-text-primary) !important;
+}
+
+/* Price text */
+body.dark-theme .roll-selection-popup div[style*="textAlign: right"],
+body.dark-theme .roll-selection-popup div[style*="25A9E0"],
+body.mm.dark-theme .roll-selection-popup div[style*="textAlign: right"],
+body.mm.dark-theme .roll-selection-popup div[style*="25A9E0"] {
+  color: var(--color-primary) !important;
+}
+
+/* "Currently Selected" badge */
+body.dark-theme .roll-selection-popup div[style*="Currently Selected"],
+body.mm.dark-theme .roll-selection-popup div[style*="Currently Selected"] {
+  background-color: var(--color-primary) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+/* Empty state text */
+body.dark-theme .roll-selection-popup div[style*="No material rolls"],
+body.mm.dark-theme .roll-selection-popup div[style*="No material rolls"] {
+  color: var(--color-text-secondary) !important;
+}
+
+/* ========================================
+   IMPROVED ANNOTATION POPUP DARK MODE
+   ======================================== */
+
+/* All textareas and inputs */
+body.dark-theme .annotation-popup textarea,
+body.dark-theme .annotation-popup input[type="text"],
+body.dark-theme .annotation-popup input[type="number"],
+body.dark-theme .annotation-popup input[type="color"],
+body.mm.dark-theme .annotation-popup textarea,
+body.mm.dark-theme .annotation-popup input[type="text"],
+body.mm.dark-theme .annotation-popup input[type="number"],
+body.mm.dark-theme .annotation-popup input[type="color"] {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Override white backgrounds on annotation inputs */
+body.dark-theme .annotation-popup textarea[style*="#ffff"],
+body.dark-theme .annotation-popup input[style*="#ffff"],
+body.mm.dark-theme .annotation-popup textarea[style*="#ffff"],
+body.mm.dark-theme .annotation-popup input[style*="#ffff"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+body.dark-theme .annotation-popup textarea:focus,
+body.dark-theme .annotation-popup input:focus,
+body.mm.dark-theme .annotation-popup textarea:focus,
+body.mm.dark-theme .annotation-popup input:focus {
+  border-color: var(--color-primary) !important;
+}
+
+/* All buttons - make them consistent */
+body.dark-theme .annotation-popup button,
+body.mm.dark-theme .annotation-popup button {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .annotation-popup button:hover,
+body.mm.dark-theme .annotation-popup button:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Annotation list items - specific override for white backgrounds */
+/* Note: Inline styles render as background-color (kebab-case) in HTML */
+body.dark-theme .annotation-popup div[style*="background-color: #ffffffff"],
+body.dark-theme .annotation-popup div[style*="background-color:#ffffffff"],
+body.dark-theme .annotation-popup div[style*="background-color: #ffff"],
+body.dark-theme .annotation-popup div[style*="display: flex"][style*="alignItems"][style*="#ffff"],
+body.dark-theme .annotation-popup div[style*="cursor: pointer"][style*="#ffff"],
+body.dark-theme .annotation-popup div[style*="padding: 8px"][style*="#ffff"],
+body.mm.dark-theme .annotation-popup div[style*="background-color: #ffffffff"],
+body.mm.dark-theme .annotation-popup div[style*="background-color:#ffffffff"],
+body.mm.dark-theme .annotation-popup div[style*="background-color: #ffff"],
+body.mm.dark-theme .annotation-popup div[style*="display: flex"][style*="alignItems"][style*="#ffff"],
+body.mm.dark-theme .annotation-popup div[style*="cursor: pointer"][style*="#ffff"],
+body.mm.dark-theme .annotation-popup div[style*="padding: 8px"][style*="#ffff"] {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Selected annotation item */
+body.dark-theme .annotation-popup div[style*="border: 1px solid #25A9E0"][style*="cursor: pointer"],
+body.mm.dark-theme .annotation-popup div[style*="border: 1px solid #25A9E0"][style*="cursor: pointer"] {
+  background-color: var(--color-bg-hover) !important;
+}
+
+/* Delete button inside annotation list items */
+body.dark-theme .annotation-popup div[style*="#ffff"] > button,
+body.mm.dark-theme .annotation-popup div[style*="#ffff"] > button {
+  background-color: var(--color-bg-tertiary) !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+}
+
+body.dark-theme .annotation-popup div[style*="#ffff"] > button:hover,
+body.mm.dark-theme .annotation-popup div[style*="#ffff"] > button:hover {
+  background-color: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+}
+
+/* Text inside annotation list items */
+body.dark-theme .annotation-popup div[style*="#ffff"] > div[style*="flex: 1"],
+body.mm.dark-theme .annotation-popup div[style*="#ffff"] > div[style*="flex: 1"] {
+  color: var(--color-text-primary) !important;
+}
+
+/* List sections */
+body.dark-theme .annotation-popup h4,
+body.mm.dark-theme .annotation-popup h4 {
+  color: var(--color-text-primary) !important;
+}
+
+/* Scrollbars for Ruler and Geometry popups */
+body.dark-theme .ruler-popup div[style*="overflowY"],
+body.dark-theme .geometry-popup div[style*="overflowY"],
+body.mm.dark-theme .ruler-popup div[style*="overflowY"],
+body.mm.dark-theme .geometry-popup div[style*="overflowY"] {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+body.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.mm.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar,
+body.mm.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar {
+  width: 8px;
+}
+
+body.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.mm.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-track,
+body.mm.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+body.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.mm.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-thumb,
+body.mm.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+body.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .ruler-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover,
+body.mm.dark-theme .geometry-popup div[style*="overflowY"]::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ========================================
+   CATCH-ALL RULES FOR ALL POPUPS
+   Ensure all text and backgrounds are dark
+   ======================================== */
+
+/* Force all text elements to be white - but exclude specific cases */
+body.dark-theme .ruler-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.dark-theme .geometry-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.dark-theme .annotation-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.dark-theme .roll-selection-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.mm.dark-theme .ruler-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.mm.dark-theme .geometry-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.mm.dark-theme .annotation-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]),
+body.mm.dark-theme .roll-selection-popup *:not(button[style*="#25A9E0"]):not(div[style*="backgroundColor"]) {
+  color: var(--color-text-primary) !important;
+}
+
+/* Override white backgrounds in annotation list - maximum specificity */
+body.dark-theme .annotation-popup > div > div > div > div[style*="#ffff"],
+body.mm.dark-theme .annotation-popup > div > div > div > div[style*="#ffff"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Any div with white background inside annotation popup - multiple selectors for better coverage */
+body.dark-theme .annotation-popup div[style*="backgroundColor"][style*="ffff"],
+body.dark-theme .annotation-popup div[style*="backgroundColor"][style*="white"],
+body.dark-theme .annotation-popup div[style*="ffffffff"],
+body.dark-theme .annotation-popup div[style*="backgroundColor: #ffffffff"],
+body.dark-theme .annotation-popup div[style*="backgroundColor:#ffffffff"],
+body.mm.dark-theme .annotation-popup div[style*="backgroundColor"][style*="ffff"],
+body.mm.dark-theme .annotation-popup div[style*="backgroundColor"][style*="white"],
+body.mm.dark-theme .annotation-popup div[style*="ffffffff"],
+body.mm.dark-theme .annotation-popup div[style*="backgroundColor: #ffffffff"],
+body.mm.dark-theme .annotation-popup div[style*="backgroundColor:#ffffffff"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Target annotation list items more specifically using parent selector */
+body.dark-theme .annotation-popup div[style*="flexDirection: column"] > div[style*="#ffff"],
+body.mm.dark-theme .annotation-popup div[style*="flexDirection: column"] > div[style*="#ffff"] {
+  background-color: var(--color-bg-input) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Override all child elements inside white background divs */
+body.dark-theme .annotation-popup div[style*="#ffff"] *,
+body.mm.dark-theme .annotation-popup div[style*="#ffff"] * {
+  color: var(--color-text-primary) !important;
+}
+
+/* Maximum specificity - target any element inside annotation popup content that might have white background */
+body.dark-theme .annotation-popup div > div > div[style*="flexDirection: column"] div[style],
+body.mm.dark-theme .annotation-popup div > div > div[style*="flexDirection: column"] div[style] {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Nuclear option - override ANY div with style attribute containing white inside annotation popup */
+body.dark-theme .annotation-popup div[style*="borderRadius: 5px"][style*="cursor: pointer"],
+body.mm.dark-theme .annotation-popup div[style*="borderRadius: 5px"][style*="cursor: pointer"] {
+  background-color: var(--color-bg-input) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Target annotation items by parent structure - annotations list container */
+body.dark-theme .annotation-popup h3 + div > div[style],
+body.mm.dark-theme .annotation-popup h3 + div > div[style] {
+  background-color: var(--color-bg-input) !important;
+  border-color: var(--color-border-light) !important;
+  color: var(--color-text-primary) !important;
+}
+
+/* Override style attribute directly - but be more selective to avoid affecting all divs */
+body.dark-theme .annotation-popup div[style*="gap: 5px"] > div[style],
+body.dark-theme .annotation-popup div[style*="flexDirection: column"][style*="gap"] > div[style],
+body.mm.dark-theme .annotation-popup div[style*="gap: 5px"] > div[style],
+body.mm.dark-theme .annotation-popup div[style*="flexDirection: column"][style*="gap"] > div[style] {
+  background-color: var(--color-bg-input) !important;
+  border-color: var(--color-border-light) !important;
+}
+
+/* Target annotation items that contain a button (Delete button) */
+body.dark-theme .annotation-popup div[style]:has(button[style*="Delete"]),
+body.mm.dark-theme .annotation-popup div[style]:has(button[style*="Delete"]) {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Target by checking if div has both cursor pointer and specific padding */
+body.dark-theme .annotation-popup div[style*="padding"][style*="8px"][style*="cursor"],
+body.mm.dark-theme .annotation-popup div[style*="padding"][style*="8px"][style*="cursor"] {
+  background-color: var(--color-bg-input) !important;
+}
+
+/* Override any white background in content areas */
+body.dark-theme .ruler-popup div[style*="padding"]:not(.ruler-title-bar),
+body.dark-theme .geometry-popup div[style*="padding"]:not(.geometry-title-bar),
+body.mm.dark-theme .ruler-popup div[style*="padding"]:not(.ruler-title-bar),
+body.mm.dark-theme .geometry-popup div[style*="padding"]:not(.geometry-title-bar) {
+  background-color: var(--color-bg-main) !important;
+}
+
+/* Override select dropdowns with white backgrounds */
+body.dark-theme .ruler-popup select[style*="#f0f0f0"],
+body.dark-theme .ruler-popup select[style*="white"],
+body.mm.dark-theme .ruler-popup select[style*="#f0f0f0"],
+body.mm.dark-theme .ruler-popup select[style*="white"] {
+  background-color: var(--color-bg-input) !important;
+  color: var(--color-text-primary) !important;
+}
+

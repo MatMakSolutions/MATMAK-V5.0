@@ -1,0 +1,210 @@
+/* css/topbar.css */
+
+/* Top Bar Container */
+.top-bar {
+  background: var(--color-bg-main);
+  height: auto; /* Auto height to accommodate content */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align groups to the left */
+  position: fixed;
+  top: 0;
+  left: 101px; /* To account for the left bar from system.css */
+  right: 0;
+  z-index: 100;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 2px 3px var(--color-primary);
+  padding:0.2rem;
+  animation: microFade 0.3s ease-out;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 0.5rem; /* Space between groups */
+}
+
+/* Top Bar Group */
+.top-bar-group {
+  display: flex;
+  align-items: center;
+  gap:0.5rem; /* Space between items in a group */
+  padding: 0.25rem 0.5rem;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-light);
+  border-radius: 8px;
+}
+
+/* Top Bar Group Title */
+.top-bar-group-title {
+    font-size: 0.59rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+}
+
+/* Top Bar Button */
+.top-bar-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  min-width: 35px; /* Give buttons a consistent width */
+}
+
+.top-bar-button:hover {
+  background: var(--color-bg-hover);
+  transform: scale(1.05);
+}
+label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+/* Top Bar Icon */
+.top-bar-icon {
+  width: 1.5rem;
+  height: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Top Bar Text */
+.top-bar-text {
+  font-weight: 500;
+  font-size: 0.65rem;
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.top-bar-button:hover .top-bar-text {
+  color: var(--color-text-hover);
+}
+
+/* Add these styles to your topbar.css file */
+
+/* Style for the label/input pairs */
+.top-bar-setting-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Style for text/number input fields */
+.top-bar-input {
+  width: 55px; /* Adjust width as needed */
+  padding: 0.2rem 0.25rem;
+  border: 1px solid var(--color-border-light);
+  border-radius: 4px;
+  font-size: 0.65rem;
+  text-align: center;
+  background-color: var(--color-bg-input);
+  color: var(--color-text-primary);
+}
+
+.top-bar-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(37, 169, 224, 0.2);
+}
+
+/* Style for the checkbox */
+.top-bar-checkbox {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  accent-color: #25A9E0; /* Modern way to color checkboxes */
+}
+
+
+/* Active/Selected Top Bar Button */
+.top-bar-button.active {
+  background-color: var(--color-bg-active);
+  transform: scale(1.05); /* Keep the same scale as hover */
+}
+
+/* Make the text for the active button stand out */
+.top-bar-button.active .top-bar-text {
+  color: var(--color-primary);
+  font-weight: 700; /* Make it bold */
+}
+
+/* Modern Professional Tooltips */
+.top-bar-button {
+  position: relative;
+}
+
+.top-bar-button::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-5px);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 
+              0 2px 4px rgba(0, 0, 0, 0.1),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  letter-spacing: 0.01em;
+}
+
+.top-bar-button::after {
+  content: '';
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-5px);
+  border: 6px solid transparent;
+  border-bottom-color: #1e293b;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99999;
+  filter: drop-shadow(0 -2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.top-bar-button:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.top-bar-button:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Smooth fade-in animation */
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+.top-bar-button:hover::before {
+  animation: tooltipFadeIn 0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.top-bar-button:hover::after {
+  animation: tooltipFadeIn 0.25s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}

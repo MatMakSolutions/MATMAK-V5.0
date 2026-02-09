@@ -1,0 +1,352 @@
+/* Animations */
+@keyframes microFade {
+  0% { opacity: 0; transform: translateY(-2px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes faintGlow {
+  0%, 100% { box-shadow: 0 0 0px rgba(37, 169, 224, 0.1); } /* Matmak #25A9E0 */
+  50% { box-shadow: 0 0 3px rgba(37, 169, 224, 0.15); }
+}
+
+/* Main Container */
+.main-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  overflow-y: auto;
+  color: var(--text-color-primary);
+
+}
+
+.main-container::-webkit-scrollbar {
+  width: 2px; /* Very thin scrollbar */
+}
+
+.main-container::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+.main-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 1px;
+  transition: background 0.2s ease;
+}
+
+.main-container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Projects Container */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: var(--color-bg-main);
+  overflow: hidden;
+ 
+}
+
+/* Projects Content */
+.projects-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 97%;
+  height: 97%;
+  padding: 40px; /* Option: padding */
+  background: var(--color-bg-tertiary);
+  border-radius: 10px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(3px);
+  overflow-y: auto;
+  animation: microFade 0.3s ease-out;
+}
+
+.projects-content::-webkit-scrollbar {
+  width: 2px;
+}
+
+.projects-content::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+.projects-content::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 1px;
+  transition: background 0.2s ease;
+}
+
+.projects-content::-webkit-scrollbar-thumb:hover {
+  background: #25A9E0; /* Matmak light blue */
+}
+
+/* Projects Header */
+.my-boards-header {
+ background-color: var(--header-bg-color);
+  color: var(--text-color-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.1rem 40.5rem;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Projects Search */
+.my-boards-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Option: adjust gap */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* Search Box */
+.my-boards-search-box {
+  display: flex;
+  align-items: center;
+  width: 300px; /* Option: adjust width */
+  /* width: 250px; */ /* Smaller width */
+  /* width: 350px; */ /* Larger width */
+  background: #FFFFFF; /* White background */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 6px;
+  padding: 8px;
+  transition: all 0.2s ease;
+}
+
+.my-boards-search-box:hover {
+  border-color: #25A9E0; /* Matmak light blue */
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.1);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.my-boards-search-box input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  outline: none;
+  letter-spacing: 0.01rem;
+}
+
+.my-boards-search-box input::placeholder {
+  color: #6B7280; /* Matmak gray */
+}
+
+.search-box-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url('assets/lens.png'); /* Adjust path as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 8px;
+}
+
+/* Dropdown (Commented Out but Styled for Future Use) */
+.my-boards-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px; /* Option: adjust width */
+  /* width: 150px; */ /* Smaller width */
+  /* width: 250px; */ /* Larger width */
+  background: #FFFFFF; /* White background */
+  border: 1px solid #D1D5DB; /* Matmak light gray */
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.my-boards-dropdown:hover {
+  border-color: #25A9E0; /* Matmak light blue */
+  box-shadow: 0 0 3px rgba(37, 169, 224, 0.1);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.dropdown-icon {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+}
+
+.dropdown-text {
+  flex: 1;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827; /* Dark for readability */
+  letter-spacing: 0.01rem;
+}
+
+.dropdown-arrow {
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #6B7280; /* Matmak gray */
+  border-bottom: 2px solid #6B7280;
+  transform: rotate(-45deg);
+  transition: border-color 0.2s ease;
+}
+
+.my-boards-dropdown:hover .dropdown-arrow {
+  border-color: #25A9E0; /* Matmak light blue */
+}
+
+/* Create Project Button */
+.create-project-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #25A9E0; /* Matmak light blue */
+  color: #FFFFFF; /* White text */
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.01rem;
+}
+
+.create-project-button:hover {
+  background: #000000; /* Black per profile.css */
+  transform: scale(1.02);
+  box-shadow: 0 0 6px rgba(37, 169, 224, 0.4);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.create-project-icon {
+  width: 18px;
+  height: 18px;
+  fill: #FFFFFF; /* White icon */
+}
+
+/* Table Buttons */
+.load-project-button, .delete-project-button, .status-project-button {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  padding: 10px 20px;
+  background:transparent; /* Matmak light blue */
+  color: #25A9E0; /* White text */
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.01rem;
+  margin: 0 4px; /* Option: adjust margin */
+  /* margin: 0 2px; */ /* Tighter margin */
+  /* margin: 0 6px; */ /* Wider margin */
+}
+
+.load-project-button:hover, .delete-project-button:hover, .status-project-button:hover {
+  background: #000000; /* Black per profile.css */
+  transform: scale(1.02);
+  box-shadow: 0 0 6px rgba(37, 169, 224, 0.4);
+  animation: faintGlow 1.5s infinite alternate;
+}
+
+.load-project-icon, .delete-project-icon, .status-project-icon {
+  width: 18px;
+  height: 18px;
+  fill: #FFFFFF; /* White icon */
+}
+
+/* Table Row and Cell for Button Arrangement */
+.table-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #FFFFFF; /* White background */
+  border-bottom: 1px solid #D1D5DB; /* Matmak light gray */
+  transition: all 0.2s ease;
+}
+
+.table-row:hover {
+  background: rgba(37, 169, 224, 0.03); /* Matmak #25A9E0 */
+  box-shadow: 0 0 2px rgba(37, 169, 224, 0.1);
+}
+
+.table-cell {
+  flex: 1;
+  padding: 8px;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #111827;
+  letter-spacing: 0.01rem;
+}
+
+.table-cell:nth-child(5) {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center Status button */
+}
+
+.table-cell:last-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px; /* Space between Load Project and Delete buttons */
+  justify-content: flex-start;
+}
+
+/* ========================================
+   DARK MODE STYLING FOR PROJECTS BUTTONS
+   Match Cut History/Saved Boards button style
+   ======================================== */
+
+/* Table Buttons - match myboard.css dark mode style */
+body.dark-theme .load-project-button,
+body.mm.dark-theme .load-project-button,
+body.dark-theme .delete-project-button,
+body.mm.dark-theme .delete-project-button,
+body.dark-theme .status-project-button,
+body.mm.dark-theme .status-project-button {
+  background: transparent !important;
+  color: var(--color-text-primary) !important;
+  border: 1px solid var(--color-border-light) !important;
+  padding: 8px 16px !important;
+  gap: 10px !important;
+  font-size: 0.875rem !important;
+  font-weight: bold !important;
+  margin: 0 2px !important;
+}
+
+body.dark-theme .load-project-button:hover,
+body.mm.dark-theme .load-project-button:hover,
+body.dark-theme .delete-project-button:hover,
+body.mm.dark-theme .delete-project-button:hover,
+body.dark-theme .status-project-button:hover,
+body.mm.dark-theme .status-project-button:hover {
+  background: var(--color-bg-hover) !important;
+  border-color: var(--color-primary) !important;
+  color: var(--color-text-primary) !important;
+}
+
+body.dark-theme .load-project-icon,
+body.mm.dark-theme .load-project-icon,
+body.dark-theme .delete-project-icon,
+body.mm.dark-theme .delete-project-icon,
+body.dark-theme .status-project-icon,
+body.mm.dark-theme .status-project-icon {
+  fill: var(--color-text-primary) !important;
+  width: 16px !important;
+  height: 16px !important;
+}

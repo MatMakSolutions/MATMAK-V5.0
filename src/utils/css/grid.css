@@ -1,0 +1,340 @@
+/* Grid system with specific class naming like Bootstrap for xs, sm, md, lg, xl, xxl */
+/* 16-column grid layout for responsive designs */
+
+:root {
+  --gap: 10px; /* Customizable gap */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: var(--gap);
+  width: 100%;
+}
+
+.grid-container-debug {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: var(--gap);
+  width: 100%;
+}
+
+.grid-container-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gap);
+  width: 100%;
+}
+
+.grid-container-12-debug {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gap);
+  width: 100%;
+}
+
+.grid-container-debug [class*="col-"] {
+  background-color: #e0e0e0; /* Light grey background for visibility */
+  border: 1px solid #ccc; /* Border to distinguish columns */
+}
+
+[class*="col-"] {
+  min-height: 20px; /* Set minimum height for demo visualization */
+  background-color: transparent; /* Light grey background for visibility */
+  border: 1px transparent; /* Border to distinguish columns */
+  padding: 10px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for xs, applies by default */
+.col-xs-1 { grid-column: span 1; }
+.col-xs-2 { grid-column: span 2; }
+.col-xs-3 { grid-column: span 3; }
+.col-xs-4 { grid-column: span 4; }
+.col-xs-5 { grid-column: span 5; }
+.col-xs-6 { grid-column: span 6; }
+.col-xs-7 { grid-column: span 7; }
+.col-xs-8 { grid-column: span 8; }
+.col-xs-9 { grid-column: span 9; }
+.col-xs-10 { grid-column: span 10; }
+.col-xs-11 { grid-column: span 11; }
+.col-xs-12 { grid-column: span 12; }
+.col-xs-13 { grid-column: span 13; }
+.col-xs-14 { grid-column: span 14; }
+.col-xs-15 { grid-column: span 15; }
+.col-xs-16 { grid-column: span 16; }
+
+/* Hide 'x-' classes for smaller sizes and 'x+' classes for the same and larger sizes */
+@media (max-width: 575px) {/* xs */
+  [class*="x-col-xs"], [class*="x+col-xs"], [class*="x-col-sm"], [class*="x-col-md"], [class*="x-col-lg"], [class*="x-col-xl"], [class*="x-col-xxl"] {
+    display: none!important;
+  }
+}
+
+@media (min-width: 576px) {/* sm */
+  .col-sm-1 { grid-column: span 1; }
+  .col-sm-2 { grid-column: span 2; }
+  .col-sm-3 { grid-column: span 3; }
+  .col-sm-4 { grid-column: span 4; }
+  .col-sm-5 { grid-column: span 5; }
+  .col-sm-6 { grid-column: span 6; }
+  .col-sm-7 { grid-column: span 7; }
+  .col-sm-8 { grid-column: span 8; }
+  .col-sm-9 { grid-column: span 9; }
+  .col-sm-10 { grid-column: span 10; }
+  .col-sm-11 { grid-column: span 11; }
+  .col-sm-12 { grid-column: span 12; }
+  .col-sm-13 { grid-column: span 13; }
+  .col-sm-14 { grid-column: span 14; }
+  .col-sm-15 { grid-column: span 15; }
+  .col-sm-16 { grid-column: span 16; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {/* sm */
+  [class*="x+col-xs"], [class*="x+col-sm"],  [class*="x-col-sm"], [class*="x-col-md"], [class*="x-col-lg"], [class*="x-col-xl"], [class*="x-col-xxl"] {
+    display: none!important;
+  }
+}
+
+@media (min-width: 768px) {/* md */
+  .col-md-1 { grid-column: span 1; }
+  .col-md-2 { grid-column: span 2; }
+  .col-md-3 { grid-column: span 3; }
+  .col-md-4 { grid-column: span 4; }
+  .col-md-5 { grid-column: span 5; }
+  .col-md-6 { grid-column: span 6; }
+  .col-md-7 { grid-column: span 7; }
+  .col-md-8 { grid-column: span 8; }
+  .col-md-9 { grid-column: span 9; }
+  .col-md-10 { grid-column: span 10; }
+  .col-md-11 { grid-column: span 11; }
+  .col-md-12 { grid-column: span 12; }
+  .col-md-13 { grid-column: span 13; }
+  .col-md-14 { grid-column: span 14; }
+  .col-md-15 { grid-column: span 15; }
+  .col-md-16 { grid-column: span 16; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {/* md */
+  [class*="x+col-xs"], [class*="x+col-sm"], [class*="x+col-md"], [class*="x-col-md"], [class*="x-col-lg"], [class*="x-col-xl"], [class*="x-col-xxl"] {
+    display: none!important;
+  }
+}
+
+@media (min-width: 992px) {/* lg */
+  .col-lg-1 { grid-column: span 1; }
+  .col-lg-2 { grid-column: span 2; }
+  .col-lg-3 { grid-column: span 3; }
+  .col-lg-4 { grid-column: span 4; }
+  .col-lg-5 { grid-column: span 5; }
+  .col-lg-6 { grid-column: span 6; }
+  .col-lg-7 { grid-column: span 7; }
+  .col-lg-8 { grid-column: span 8; }
+  .col-lg-9 { grid-column: span 9; }
+  .col-lg-10 { grid-column: span 10; }
+  .col-lg-11 { grid-column: span 11; }
+  .col-lg-12 { grid-column: span 12; }
+  .col-lg-13 { grid-column: span 13; }
+  .col-lg-14 { grid-column: span 14; }
+  .col-lg-15 { grid-column: span 15; }
+  .col-lg-16 { grid-column: span 16; }
+}
+
+@media (min-width: 992px) and (max-width: 1199) {/* lg */
+  [class*="x+col-xs"], [class*="x+col-sm"], [class*="x+col-md"], [class*="x+col-lg"], [class*="x-col-lg"], [class*="x-col-xl"], [class*="x-col-xxl"]  {
+    display: none!important;
+  }
+}
+
+@media (min-width: 1200px) {/* xl */
+  .col-xl-1 { grid-column: span 1; }
+  .col-xl-2 { grid-column: span 2; }
+  .col-xl-3 { grid-column: span 3; }
+  .col-xl-4 { grid-column: span 4; }
+  .col-xl-5 { grid-column: span 5; }
+  .col-xl-6 { grid-column: span 6; }
+  .col-xl-7 { grid-column: span 7; }
+  .col-xl-8 { grid-column: span 8; }
+  .col-xl-9 { grid-column: span 9; }
+  .col-xl-10 { grid-column: span 10; }
+  .col-xl-11 { grid-column: span 11; }
+  .col-xl-12 { grid-column: span 12; }
+  .col-xl-13 { grid-column: span 13; }
+  .col-xl-14 { grid-column: span 14; }
+  .col-xl-15 { grid-column: span 15; }
+  .col-xl-16 { grid-column: span 16; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399) {/* xl */
+  [class*="x+col-xs"], [class*="x+col-sm"], [class*="x+col-md"], [class*="x+col-lg"],[class*="x+col-xl"], [class*="x-col-xl"], [class*="x-col-xxl"]  {
+    display: none!important;
+  }
+}
+
+@media (min-width: 1400px) {/* xxl */
+  .col-xxl-1 { grid-column: span 1; }
+  .col-xxl-2 { grid-column: span 2; }
+  .col-xxl-3 { grid-column: span 3; }
+  .col-xxl-4 { grid-column: span 4; }
+  .col-xxl-5 { grid-column: span 5; }
+  .col-xxl-6 { grid-column: span 6; }
+  .col-xxl-7 { grid-column: span 7; }
+  .col-xxl-8 { grid-column: span 8; }
+  .col-xxl-9 { grid-column: span 9; }
+  .col-xxl-10 { grid-column: span 10; }
+  .col-xxl-11 { grid-column: span 11; }
+  .col-xxl-12 { grid-column: span 12; }
+  .col-xxl-13 { grid-column: span 13; }
+  .col-xxl-14 { grid-column: span 14; }
+  .col-xxl-15 { grid-column: span 15; }
+  .col-xxl-16 { grid-column: span 16; }
+
+  [class*="x+col-xs"], [class*="x+col-sm"], [class*="x+col-md"], [class*="x+col-lg"],[class*="x+col-xl"], [class*="x+col-xxl"], [class*="x-col-xxl"]  {
+    display: none!important;
+  }
+}
+
+
+
+
+/* Flex utils */
+/* Flexbox helper classes to configure containers as vertical or horizontal stack panels */
+
+/* Horizontal stack (flex-row) */
+.h-stack {
+  display         : flex;
+  flex-direction  : row;
+  align-items     : stretch;     /* Stretches items vertically */
+  justify-content : flex-start;  /* Aligns items to the start horizontally */
+  width           : 100%;        /* Full width of the container */
+}
+
+/* Vertical stack (flex-column) */
+.v-stack {
+  display         : flex;
+  flex-direction  : column;
+  justify-content : flex-start;  /* Aligns items to the start vertically */
+  width           : 100%;        /* Full width of the container */
+  height          : 100%;        /* Full height to stretch vertically */
+}
+
+/* Helper class for full width and full height for flex items */
+.i-stack {
+  flex            : 1;       /* Allows the flex item to fill the space */
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  width           : 100%;    /* Full width for horizontal alignment */
+  height          : 100%;    /* Full height for vertical alignment */
+}
+
+/* CSS for the COntainer component*/
+.center-container {
+  display         : flex;    /* Use flexbox to easily center the child */
+  justify-content : center;  /* Horizontally center the child in the container */
+  align-items     : center;  /* Vertically center the child in the container */
+  width           : 100%;    /* Container takes the full width of the parent */
+}
+
+.center-container > div {
+  max-width  : 1200px;                    /* Maximum width of the inner div */
+  width      : 100%;                      /* Makes the inner div take up 100% of the .center-container until 1200px */
+  padding    : 20px;                      /* Optional: Padding inside the inner div */
+  box-sizing : border-box;                /* Includes padding in the width calculation */
+}
+
+.center-container-debug {
+  display         : flex;    /* Use flexbox to easily center the child */
+  justify-content : center;  /* Horizontally center the child in the container */
+  align-items     : center;  /* Vertically center the child in the container */
+  width           : 100%;    /* Container takes the full width of the parent */
+}
+
+.center-container-debug > div {
+  max-width  : 1200px;                    /* Maximum width of the inner div */
+  width      : 100%;                      /* Makes the inner div take up 100% of the .center-container until 1200px */
+  background : #f0f0f0;                   /* Optional: Background color for visibility */
+  box-shadow : 0 0 10px rgba(0,0,0,0.1);  /* Optional: Adds shadow for better visibility */
+  padding    : 20px;                      /* Optional: Padding inside the inner div */
+  box-sizing : border-box;                /* Includes padding in the width calculation */
+}
+
+.v-space-xs {
+  margin-top: 15px;
+}
+
+.v-space-sm {
+  margin-top: 30px;
+}
+
+.v-space-md {
+  margin-top: 45px;
+}
+
+.v-space-lg {
+  margin-top: 60px;
+}
+
+.v-space-xl {
+  margin-top: 75px;
+}
+
+.v-space-xxl {
+  margin-top: 90px;
+}
+
+.h-space-xs {
+  margin-left: 15px;
+}
+
+.h-space-sm {
+  margin-left: 30px;
+}
+
+.h-space-md {
+  margin-left: 45px;
+}
+
+.h-space-lg {
+  margin-left: 60px;
+}
+
+.h-space-xl {
+  margin-left: 75px;
+}
+
+.h-space-xxl {
+  margin-left: 90px;
+}
+
+.p-space-xs {
+  padding-left  : 15px;
+  padding-right : 15px;
+}
+
+.p-space-sm {
+  padding-left  : 30px;
+  padding-right : 30px;
+}
+
+.p-space-md {
+  padding-left  : 45px;
+  padding-right : 45px;
+}
+
+.p-space-lg {
+  padding-left  : 60px;
+  padding-right : 60px;
+}
+
+.p-space-xl {
+  padding-left  : 75px;
+  padding-right : 75px;
+}
+
+.p-space-xxl {
+  padding-left  : 90px;
+  padding-right : 90px;
+}
